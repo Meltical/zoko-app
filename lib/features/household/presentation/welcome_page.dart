@@ -25,6 +25,7 @@ class _WelcomePageState extends ConsumerState<WelcomePage> {
 
   Future<void> _join() async {
     if (_code.text.trim().isEmpty) return;
+    FocusScope.of(context).unfocus();
     setState(() {
       _busy = true;
       _error = null;

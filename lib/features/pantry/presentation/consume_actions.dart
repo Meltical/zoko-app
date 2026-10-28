@@ -17,6 +17,8 @@ Future<void> consumeWithUndo(BuildContext context, WidgetRef ref, Product produc
             ConsumptionOutcome.eaten => '« ${product.name} » mangé',
             ConsumptionOutcome.wasted => '« ${product.name} » jeté',
           }),
+          persist: false,
+          duration: const Duration(seconds: 5),
           action: SnackBarAction(label: 'Annuler', onPressed: () => _restore(messenger, notifier, product, historyId)),
         ),
       );
@@ -35,6 +37,8 @@ Future<void> removeWithUndo(BuildContext context, WidgetRef ref, Product product
       ..showSnackBar(
         SnackBar(
           content: Text('« ${product.name} » supprimé'),
+          persist: false,
+          duration: const Duration(seconds: 5),
           action: SnackBarAction(label: 'Annuler', onPressed: () => _restore(messenger, notifier, product, null)),
         ),
       );
