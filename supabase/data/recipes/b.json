@@ -1,0 +1,1142 @@
+[
+  {
+    "slug": "saumon-en-papillote",
+    "title": "Saumon en papillote",
+    "wiki": "Cuisson en papillote",
+    "prep_minutes": 10,
+    "cook_minutes": 20,
+    "servings": 4,
+    "difficulty": "facile",
+    "tags": ["plat", "four", "rapide"],
+    "ingredients": [
+      {"key": "saumon", "label": "4 pavés de saumon (environ 150 g chacun)"},
+      {"key": "courgette", "label": "1 courgette", "optional": true},
+      {"key": "citron", "label": "1 citron"},
+      {"key": "echalote", "label": "1 échalote"},
+      {"key": "aneth", "label": "4 brins d'aneth", "optional": true, "alt": ["persil", "ciboulette"]},
+      {"key": "huile", "label": "2 c. à soupe d'huile d'olive"},
+      {"key": "sel", "label": "Sel"},
+      {"key": "poivre", "label": "Poivre"}
+    ],
+    "steps": [
+      "Préchauffer le four à 200 °C (th. 6-7).",
+      "Laver la courgette et la tailler en fines rondelles, émincer l'échalote et couper le citron en rondelles.",
+      "Découper 4 grands rectangles de papier cuisson. Répartir la courgette et l'échalote au centre de chacun, puis poser un pavé de saumon par-dessus.",
+      "Saler, poivrer, arroser d'un filet d'huile d'olive et ajouter 2 rondelles de citron et un brin d'aneth sur chaque pavé.",
+      "Refermer les papillotes en repliant les bords plusieurs fois sur eux-mêmes pour qu'elles soient bien hermétiques.",
+      "Enfourner 18 à 20 minutes. Servir dans la papillote, avec du riz ou des pommes de terre vapeur."
+    ]
+  },
+  {
+    "slug": "tagliatelles-saumon-creme",
+    "title": "Tagliatelles au saumon et à la crème",
+    "wiki": null,
+    "prep_minutes": 10,
+    "cook_minutes": 15,
+    "servings": 4,
+    "difficulty": "facile",
+    "tags": ["plat", "poêle", "rapide"],
+    "ingredients": [
+      {"key": "pates", "label": "400 g de tagliatelles", "alt": ["pates_fraiches"]},
+      {"key": "saumon", "label": "2 pavés de saumon (environ 300 g)", "alt": ["saumon_fume"]},
+      {"key": "creme", "label": "25 cl de crème fraîche"},
+      {"key": "echalote", "label": "1 échalote"},
+      {"key": "beurre", "label": "1 noix de beurre"},
+      {"key": "citron", "label": "½ citron", "optional": true},
+      {"key": "aneth", "label": "Quelques brins d'aneth", "optional": true, "alt": ["ciboulette", "persil"]},
+      {"key": "sel", "label": "Sel"},
+      {"key": "poivre", "label": "Poivre"}
+    ],
+    "steps": [
+      "Retirer la peau du saumon et le couper en cubes de 2 cm.",
+      "Cuire les tagliatelles dans un grand volume d'eau bouillante salée, selon le temps indiqué sur le paquet.",
+      "Pendant ce temps, faire fondre le beurre dans une sauteuse et y faire suer l'échalote émincée 2 minutes.",
+      "Ajouter le saumon et le faire dorer 3 minutes en remuant délicatement. Avec du saumon fumé, sauter cette cuisson : il s'ajoute à la fin, hors du feu.",
+      "Verser la crème, saler, poivrer, ajouter le zeste et un filet de jus de citron, puis laisser frémir 3 minutes.",
+      "Égoutter les pâtes, les mélanger à la sauce et parsemer d'aneth ciselé avant de servir."
+    ]
+  },
+  {
+    "slug": "cabillaud-a-la-provencale",
+    "title": "Cabillaud à la provençale",
+    "wiki": null,
+    "prep_minutes": 15,
+    "cook_minutes": 25,
+    "servings": 4,
+    "difficulty": "facile",
+    "tags": ["plat", "poêle"],
+    "ingredients": [
+      {"key": "poisson_blanc", "label": "4 dos de cabillaud (environ 600 g)"},
+      {"key": "tomate", "label": "4 tomates bien mûres", "alt": ["tomates_conserve"]},
+      {"key": "poivron", "label": "1 poivron", "optional": true},
+      {"key": "olive", "label": "50 g d'olives noires", "optional": true},
+      {"key": "oignon", "label": "1 oignon"},
+      {"key": "ail", "label": "2 gousses d'ail"},
+      {"key": "vin", "label": "5 cl de vin blanc", "optional": true},
+      {"key": "herbes_sechees", "label": "1 c. à café d'herbes de Provence"},
+      {"key": "basilic", "label": "Quelques feuilles de basilic", "optional": true, "alt": ["persil"]},
+      {"key": "huile", "label": "3 c. à soupe d'huile d'olive"},
+      {"key": "sel", "label": "Sel"},
+      {"key": "poivre", "label": "Poivre"}
+    ],
+    "steps": [
+      "Émincer l'oignon et le poivron, hacher l'ail et couper les tomates en dés.",
+      "Chauffer 2 c. à soupe d'huile d'olive dans une sauteuse et y faire revenir l'oignon et le poivron 5 minutes à feu moyen.",
+      "Ajouter l'ail, les tomates, les herbes de Provence et le vin blanc. Saler, poivrer et laisser mijoter 10 minutes à découvert.",
+      "Ajouter les olives, puis déposer les dos de cabillaud sur la sauce. Couvrir et cuire 8 à 10 minutes à feu doux, jusqu'à ce que la chair soit nacrée.",
+      "Parsemer de basilic ciselé, arroser d'un filet d'huile d'olive et servir avec du riz ou des pommes de terre vapeur."
+    ]
+  },
+  {
+    "slug": "salade-nicoise",
+    "title": "Salade niçoise",
+    "wiki": "Salade niçoise",
+    "prep_minutes": 20,
+    "cook_minutes": 10,
+    "servings": 4,
+    "difficulty": "facile",
+    "tags": ["salade", "plat", "rapide"],
+    "ingredients": [
+      {"key": "tomate", "label": "4 tomates"},
+      {"key": "oeufs", "label": "4 œufs"},
+      {"key": "thon", "label": "1 boîte de thon au naturel (140 g)"},
+      {"key": "olive", "label": "80 g d'olives noires"},
+      {"key": "poivron", "label": "1 poivron vert", "optional": true},
+      {"key": "radis", "label": "1 botte de radis", "optional": true},
+      {"key": "salade", "label": "Quelques feuilles de salade", "optional": true},
+      {"key": "oignon", "label": "1 oignon nouveau"},
+      {"key": "basilic", "label": "Quelques feuilles de basilic", "optional": true},
+      {"key": "huile", "label": "4 c. à soupe d'huile d'olive"},
+      {"key": "vinaigre", "label": "1 c. à soupe de vinaigre de vin"},
+      {"key": "sel", "label": "Sel"},
+      {"key": "poivre", "label": "Poivre"}
+    ],
+    "steps": [
+      "Plonger les œufs dans l'eau bouillante et les cuire 10 minutes, puis les refroidir dans l'eau froide et les écaler.",
+      "Laver les légumes. Couper les tomates en quartiers, le poivron en fines lanières et les radis en rondelles, et émincer l'oignon nouveau.",
+      "Préparer la vinaigrette en fouettant l'huile d'olive, le vinaigre, du sel et du poivre.",
+      "Disposer les feuilles de salade dans un grand plat, puis répartir les tomates, le poivron, les radis et l'oignon.",
+      "Ajouter le thon émietté, les olives et les œufs coupés en quartiers.",
+      "Arroser de vinaigrette et parsemer de basilic au moment de servir."
+    ]
+  },
+  {
+    "slug": "crevettes-sautees-ail",
+    "title": "Crevettes sautées à l'ail",
+    "wiki": null,
+    "prep_minutes": 10,
+    "cook_minutes": 6,
+    "servings": 4,
+    "difficulty": "facile",
+    "tags": ["plat", "entrée", "poêle", "rapide"],
+    "ingredients": [
+      {"key": "crevettes", "label": "500 g de crevettes crues décortiquées (ou de gambas)"},
+      {"key": "ail", "label": "4 gousses d'ail"},
+      {"key": "persil", "label": "½ bouquet de persil plat", "optional": true, "alt": ["coriandre"]},
+      {"key": "citron", "label": "1 citron", "optional": true},
+      {"key": "beurre", "label": "20 g de beurre"},
+      {"key": "huile", "label": "3 c. à soupe d'huile d'olive"},
+      {"key": "epices", "label": "1 pincée de piment d'Espelette", "optional": true},
+      {"key": "sel", "label": "Sel"},
+      {"key": "poivre", "label": "Poivre"}
+    ],
+    "steps": [
+      "Rincer les crevettes et bien les sécher sur du papier absorbant.",
+      "Peler et hacher finement l'ail ; ciseler le persil.",
+      "Chauffer l'huile et le beurre dans une grande poêle à feu vif. Ajouter les crevettes en une seule couche et les saisir 2 minutes de chaque côté, jusqu'à ce qu'elles soient bien roses.",
+      "Baisser le feu, ajouter l'ail et le piment et faire sauter 1 minute, sans laisser brunir l'ail.",
+      "Saler, poivrer, arroser d'un filet de jus de citron et parsemer de persil. Servir aussitôt, avec du riz, des pâtes ou du pain."
+    ]
+  },
+  {
+    "slug": "moules-marinieres",
+    "title": "Moules marinières",
+    "wiki": "Moules marinières",
+    "prep_minutes": 20,
+    "cook_minutes": 10,
+    "servings": 4,
+    "difficulty": "facile",
+    "tags": ["plat", "rapide"],
+    "ingredients": [
+      {"key": "moules", "label": "2 kg de moules de bouchot"},
+      {"key": "echalote", "label": "3 échalotes"},
+      {"key": "ail", "label": "1 gousse d'ail"},
+      {"key": "vin", "label": "20 cl de vin blanc sec"},
+      {"key": "beurre", "label": "40 g de beurre"},
+      {"key": "herbes_sechees", "label": "1 branche de thym et 1 feuille de laurier"},
+      {"key": "persil", "label": "½ bouquet de persil", "optional": true},
+      {"key": "creme", "label": "10 cl de crème fraîche", "optional": true},
+      {"key": "poivre", "label": "Poivre"}
+    ],
+    "steps": [
+      "Gratter et laver les moules sous l'eau froide, retirer les filaments et jeter celles qui sont cassées ou qui restent ouvertes quand on les presse.",
+      "Ciseler les échalotes, hacher l'ail et le persil.",
+      "Dans un grand faitout, faire fondre le beurre et y faire suer les échalotes et l'ail 2 minutes, sans coloration.",
+      "Ajouter le vin blanc, le thym et le laurier, poivrer et porter à ébullition.",
+      "Verser les moules, couvrir et cuire 5 à 6 minutes à feu vif en secouant le faitout 2 ou 3 fois, jusqu'à ce qu'elles soient toutes ouvertes.",
+      "Ajouter le persil (et la crème si on le souhaite), mélanger et servir aussitôt avec le jus de cuisson. Jeter les moules restées fermées."
+    ]
+  },
+  {
+    "slug": "bagels-saumon-fume",
+    "title": "Bagels au saumon fumé",
+    "wiki": null,
+    "prep_minutes": 15,
+    "cook_minutes": 3,
+    "servings": 4,
+    "difficulty": "facile",
+    "tags": ["plat", "rapide"],
+    "ingredients": [
+      {"key": "bagel", "label": "4 bagels", "alt": ["pain", "pain_de_mie"]},
+      {"key": "saumon_fume", "label": "4 tranches de saumon fumé (200 g)"},
+      {"key": "fromage_frais", "label": "150 g de fromage frais (type cream cheese)"},
+      {"key": "avocat", "label": "1 avocat", "optional": true},
+      {"key": "salade", "label": "1 poignée de jeunes pousses", "optional": true},
+      {"key": "oignon", "label": "½ oignon rouge", "optional": true},
+      {"key": "citron", "label": "½ citron"},
+      {"key": "aneth", "label": "Quelques brins d'aneth", "optional": true, "alt": ["ciboulette"]},
+      {"key": "poivre", "label": "Poivre"}
+    ],
+    "steps": [
+      "Couper les bagels en deux et les faire griller légèrement au grille-pain ou au four.",
+      "Mélanger le fromage frais avec l'aneth ciselé, un filet de jus de citron et du poivre.",
+      "Peler l'avocat, le couper en fines tranches et l'arroser de citron. Émincer très finement l'oignon rouge.",
+      "Tartiner généreusement les deux moitiés de chaque bagel de fromage frais.",
+      "Garnir la base de jeunes pousses, de saumon fumé, d'avocat et d'oignon rouge. Refermer et servir."
+    ]
+  },
+  {
+    "slug": "risotto-champignons",
+    "title": "Risotto aux champignons",
+    "wiki": "Risotto",
+    "prep_minutes": 10,
+    "cook_minutes": 30,
+    "servings": 4,
+    "difficulty": "moyen",
+    "tags": ["plat", "végétarien"],
+    "ingredients": [
+      {"key": "riz", "label": "300 g de riz arborio (ou carnaroli)"},
+      {"key": "champignon", "label": "300 g de champignons de Paris"},
+      {"key": "echalote", "label": "2 échalotes", "alt": ["oignon"]},
+      {"key": "ail", "label": "1 gousse d'ail"},
+      {"key": "vin", "label": "10 cl de vin blanc sec", "optional": true},
+      {"key": "bouillon", "label": "1 litre de bouillon de légumes chaud"},
+      {"key": "parmesan", "label": "60 g de parmesan râpé"},
+      {"key": "beurre", "label": "40 g de beurre"},
+      {"key": "huile", "label": "2 c. à soupe d'huile d'olive"},
+      {"key": "persil", "label": "Quelques brins de persil", "optional": true},
+      {"key": "sel", "label": "Sel"},
+      {"key": "poivre", "label": "Poivre"}
+    ],
+    "steps": [
+      "Garder le bouillon chaud à feu doux. Nettoyer et émincer les champignons, ciseler les échalotes.",
+      "Faire sauter les champignons 5 minutes à feu vif dans une sauteuse avec 1 c. à soupe d'huile et l'ail haché. Saler, poivrer et réserver.",
+      "Dans la même sauteuse, faire suer les échalotes dans le reste d'huile et 10 g de beurre. Ajouter le riz et le nacrer 2 minutes en remuant, jusqu'à ce qu'il devienne translucide.",
+      "Déglacer avec le vin blanc et le laisser s'évaporer.",
+      "Ajouter le bouillon louche par louche en remuant souvent, en attendant que le liquide soit absorbé avant d'en remettre. Compter 18 minutes environ.",
+      "Incorporer les champignons 2 minutes avant la fin. Hors du feu, ajouter le reste du beurre et le parmesan, mélanger vivement, couvrir 2 minutes et servir parsemé de persil."
+    ]
+  },
+  {
+    "slug": "omelette-champignons",
+    "title": "Omelette aux champignons",
+    "wiki": "Omelette",
+    "prep_minutes": 5,
+    "cook_minutes": 10,
+    "servings": 2,
+    "difficulty": "facile",
+    "tags": ["plat", "végétarien", "poêle", "rapide"],
+    "ingredients": [
+      {"key": "oeufs", "label": "6 œufs"},
+      {"key": "champignon", "label": "200 g de champignons de Paris"},
+      {"key": "beurre", "label": "20 g de beurre"},
+      {"key": "echalote", "label": "1 échalote", "optional": true},
+      {"key": "creme", "label": "2 c. à soupe de crème fraîche", "optional": true, "alt": ["lait"]},
+      {"key": "emmental", "label": "40 g de fromage râpé", "optional": true},
+      {"key": "ciboulette", "label": "Quelques brins de ciboulette", "optional": true, "alt": ["persil"]},
+      {"key": "sel", "label": "Sel"},
+      {"key": "poivre", "label": "Poivre"}
+    ],
+    "steps": [
+      "Nettoyer et émincer les champignons ; ciseler l'échalote.",
+      "Faire fondre la moitié du beurre dans une poêle et y faire sauter l'échalote et les champignons 5 minutes à feu vif, jusqu'à ce qu'ils aient rendu leur eau et soient dorés. Saler, poivrer et réserver.",
+      "Battre les œufs avec la crème, la ciboulette ciselée, du sel et du poivre.",
+      "Faire fondre le reste du beurre dans la poêle à feu moyen, verser les œufs et remuer doucement à la spatule en ramenant les bords vers le centre.",
+      "Quand l'omelette est presque prise mais encore baveuse au centre, répartir les champignons et le fromage sur une moitié.",
+      "Replier l'omelette en deux, la faire glisser sur l'assiette et servir aussitôt."
+    ]
+  },
+  {
+    "slug": "chakchouka",
+    "title": "Chakchouka",
+    "wiki": "Chakchouka",
+    "prep_minutes": 15,
+    "cook_minutes": 30,
+    "servings": 4,
+    "difficulty": "facile",
+    "tags": ["plat", "végétarien", "poêle", "mijoté"],
+    "ingredients": [
+      {"key": "poivron", "label": "3 poivrons (rouges et verts)"},
+      {"key": "tomate", "label": "4 tomates", "alt": ["tomates_conserve"]},
+      {"key": "oeufs", "label": "4 œufs"},
+      {"key": "oignon", "label": "1 oignon"},
+      {"key": "ail", "label": "2 gousses d'ail"},
+      {"key": "epices", "label": "1 c. à café de cumin, 1 c. à café de paprika et 1 pincée de piment"},
+      {"key": "huile", "label": "3 c. à soupe d'huile d'olive"},
+      {"key": "coriandre", "label": "Quelques brins de coriandre", "optional": true, "alt": ["persil"]},
+      {"key": "pain", "label": "Du pain pour accompagner", "optional": true},
+      {"key": "sel", "label": "Sel"},
+      {"key": "poivre", "label": "Poivre"}
+    ],
+    "steps": [
+      "Émincer l'oignon, couper les poivrons en lanières et les tomates en dés, hacher l'ail.",
+      "Chauffer l'huile dans une grande poêle et y faire revenir l'oignon et les poivrons 10 minutes à feu moyen, jusqu'à ce qu'ils soient tendres.",
+      "Ajouter l'ail et les épices, puis les tomates. Saler, poivrer et laisser mijoter 10 à 15 minutes, jusqu'à obtenir une sauce épaisse.",
+      "Creuser 4 puits dans la sauce et y casser délicatement les œufs.",
+      "Couvrir et cuire 5 à 8 minutes à feu doux, jusqu'à ce que les blancs soient pris et les jaunes encore coulants.",
+      "Parsemer de coriandre ciselée et servir dans la poêle, avec du pain."
+    ]
+  },
+  {
+    "slug": "oeufs-cocotte",
+    "title": "Œufs cocotte",
+    "wiki": "Œufs cocotte",
+    "prep_minutes": 5,
+    "cook_minutes": 12,
+    "servings": 4,
+    "difficulty": "facile",
+    "tags": ["entrée", "végétarien", "four", "rapide"],
+    "ingredients": [
+      {"key": "oeufs", "label": "4 œufs"},
+      {"key": "creme", "label": "8 c. à soupe de crème fraîche épaisse"},
+      {"key": "beurre", "label": "10 g de beurre"},
+      {"key": "emmental", "label": "40 g de fromage râpé", "optional": true},
+      {"key": "ciboulette", "label": "Quelques brins de ciboulette", "optional": true},
+      {"key": "pain", "label": "4 tranches de pain pour les mouillettes", "optional": true, "alt": ["pain_de_mie"]},
+      {"key": "sel", "label": "Sel"},
+      {"key": "poivre", "label": "Poivre"}
+    ],
+    "steps": [
+      "Préchauffer le four à 180 °C (th. 6) et faire chauffer de l'eau pour le bain-marie.",
+      "Beurrer 4 ramequins et déposer 1 c. à soupe de crème au fond de chacun ; saler et poivrer.",
+      "Casser délicatement un œuf dans chaque ramequin sans crever le jaune. Ajouter le reste de la crème autour du jaune, puis le fromage râpé.",
+      "Placer les ramequins dans un plat à four, verser de l'eau chaude jusqu'à mi-hauteur et enfourner 10 à 12 minutes : le blanc doit être pris et le jaune coulant.",
+      "Parsemer de ciboulette ciselée et servir aussitôt avec des mouillettes de pain grillé."
+    ]
+  },
+  {
+    "slug": "frittata-legumes",
+    "title": "Frittata aux légumes",
+    "wiki": "Frittata",
+    "prep_minutes": 15,
+    "cook_minutes": 20,
+    "servings": 4,
+    "difficulty": "facile",
+    "tags": ["plat", "végétarien", "poêle", "four"],
+    "ingredients": [
+      {"key": "oeufs", "label": "8 œufs"},
+      {"key": "courgette", "label": "1 courgette"},
+      {"key": "poivron", "label": "1 poivron rouge"},
+      {"key": "pomme_de_terre", "label": "2 pommes de terre déjà cuites", "optional": true},
+      {"key": "epinard", "label": "1 poignée de pousses d'épinard", "optional": true},
+      {"key": "oignon", "label": "1 oignon"},
+      {"key": "parmesan", "label": "50 g de parmesan râpé", "alt": ["emmental"]},
+      {"key": "lait", "label": "5 cl de lait", "optional": true},
+      {"key": "basilic", "label": "Quelques feuilles de basilic", "optional": true, "alt": ["persil"]},
+      {"key": "huile", "label": "2 c. à soupe d'huile d'olive"},
+      {"key": "sel", "label": "Sel"},
+      {"key": "poivre", "label": "Poivre"}
+    ],
+    "steps": [
+      "Préchauffer le gril du four. Couper la courgette en demi-rondelles, le poivron en dés et les pommes de terre en cubes ; émincer l'oignon.",
+      "Dans une poêle de 24 à 26 cm allant au four, faire revenir l'oignon et le poivron dans l'huile 5 minutes, ajouter la courgette et les pommes de terre et cuire encore 5 minutes. Ajouter les épinards à la fin pour les faire tomber.",
+      "Battre les œufs avec le lait, la moitié du parmesan, le basilic ciselé, du sel et du poivre.",
+      "Verser les œufs sur les légumes, les répartir uniformément et cuire 6 à 8 minutes à feu doux sans remuer, jusqu'à ce que les bords soient pris.",
+      "Parsemer du reste de parmesan et passer la poêle 3 à 5 minutes sous le gril, jusqu'à ce que le dessus soit pris et doré.",
+      "Laisser tiédir 5 minutes, faire glisser sur un plat et couper en parts. Se déguste chaude ou froide."
+    ]
+  },
+  {
+    "slug": "pain-perdu",
+    "title": "Pain perdu",
+    "wiki": "Pain perdu",
+    "prep_minutes": 10,
+    "cook_minutes": 10,
+    "servings": 4,
+    "difficulty": "facile",
+    "tags": ["dessert", "végétarien", "poêle", "rapide"],
+    "ingredients": [
+      {"key": "pain", "label": "8 tranches de pain rassis", "alt": ["pain_de_mie", "brioche"]},
+      {"key": "oeufs", "label": "3 œufs"},
+      {"key": "lait", "label": "25 cl de lait"},
+      {"key": "sucre", "label": "50 g de sucre"},
+      {"key": "vanille", "label": "1 c. à café d'extrait de vanille", "optional": true},
+      {"key": "epices", "label": "1 pincée de cannelle", "optional": true},
+      {"key": "beurre", "label": "40 g de beurre"}
+    ],
+    "steps": [
+      "Dans une assiette creuse, fouetter les œufs avec le sucre, la vanille et la cannelle, puis ajouter le lait.",
+      "Tremper les tranches de pain dans le mélange des deux côtés : elles doivent être imbibées sans se défaire (plus longtemps si le pain est très sec).",
+      "Faire fondre une noix de beurre dans une poêle à feu moyen.",
+      "Faire dorer les tranches 2 à 3 minutes de chaque côté, en remettant un peu de beurre entre chaque fournée.",
+      "Saupoudrer d'un peu de sucre et servir chaud, nature ou avec des fruits ou de la confiture."
+    ]
+  },
+  {
+    "slug": "crepes",
+    "title": "Crêpes",
+    "wiki": "Crêpe",
+    "prep_minutes": 10,
+    "cook_minutes": 30,
+    "servings": 4,
+    "difficulty": "facile",
+    "tags": ["dessert", "végétarien", "poêle"],
+    "ingredients": [
+      {"key": "farine", "label": "250 g de farine"},
+      {"key": "oeufs", "label": "4 œufs"},
+      {"key": "lait", "label": "50 cl de lait"},
+      {"key": "sucre", "label": "2 c. à soupe de sucre"},
+      {"key": "beurre", "label": "50 g de beurre fondu"},
+      {"key": "vanille", "label": "1 c. à café d'extrait de vanille", "optional": true},
+      {"key": "sel", "label": "1 pincée de sel"},
+      {"key": "huile", "label": "Un peu d'huile pour la poêle"}
+    ],
+    "steps": [
+      "Verser la farine, le sucre et le sel dans un saladier et creuser un puits.",
+      "Y casser les œufs et mélanger au fouet en incorporant peu à peu la farine, puis verser le lait petit à petit pour éviter les grumeaux.",
+      "Ajouter le beurre fondu et la vanille, puis laisser reposer la pâte 1 heure à température ambiante si possible.",
+      "Chauffer une poêle à crêpes légèrement huilée à feu moyen-vif. Verser une petite louche de pâte en inclinant la poêle pour la répartir finement.",
+      "Cuire environ 1 minute, jusqu'à ce que les bords se décollent, retourner la crêpe et la cuire encore 30 secondes.",
+      "Empiler les crêpes sur une assiette et les garnir de sucre, de confiture ou de chocolat fondu."
+    ]
+  },
+  {
+    "slug": "ratatouille",
+    "title": "Ratatouille",
+    "wiki": "Ratatouille",
+    "prep_minutes": 25,
+    "cook_minutes": 60,
+    "servings": 6,
+    "difficulty": "facile",
+    "tags": ["plat", "végétarien", "mijoté"],
+    "ingredients": [
+      {"key": "aubergine", "label": "2 aubergines"},
+      {"key": "courgette", "label": "3 courgettes"},
+      {"key": "poivron", "label": "2 poivrons (rouge et jaune)"},
+      {"key": "tomate", "label": "5 tomates bien mûres", "alt": ["tomates_conserve"]},
+      {"key": "oignon", "label": "2 oignons"},
+      {"key": "ail", "label": "3 gousses d'ail"},
+      {"key": "herbes_sechees", "label": "1 branche de thym et 1 feuille de laurier"},
+      {"key": "basilic", "label": "Quelques feuilles de basilic", "optional": true},
+      {"key": "huile", "label": "6 c. à soupe d'huile d'olive"},
+      {"key": "sel", "label": "Sel"},
+      {"key": "poivre", "label": "Poivre"}
+    ],
+    "steps": [
+      "Laver les légumes. Couper les aubergines, les courgettes et les poivrons en dés de 2 cm et les tomates en morceaux ; émincer les oignons et hacher l'ail.",
+      "Dans une poêle, faire revenir séparément les aubergines, puis les courgettes, puis les poivrons dans un peu d'huile d'olive, 5 minutes chacun, jusqu'à ce qu'ils soient légèrement dorés. Réserver.",
+      "Dans une grande cocotte, faire fondre les oignons 5 minutes dans 2 c. à soupe d'huile, puis ajouter l'ail et les tomates et cuire 10 minutes.",
+      "Ajouter tous les légumes réservés, le thym et le laurier ; saler, poivrer et mélanger délicatement.",
+      "Couvrir et laisser mijoter 30 minutes à feu doux en remuant de temps en temps. Retirer le couvercle les 10 dernières minutes si le jus est trop abondant.",
+      "Retirer le thym et le laurier, parsemer de basilic ciselé et servir chaud, tiède ou froid. Elle est encore meilleure réchauffée le lendemain."
+    ]
+  },
+  {
+    "slug": "gratin-dauphinois",
+    "title": "Gratin dauphinois",
+    "wiki": "Gratin dauphinois",
+    "prep_minutes": 20,
+    "cook_minutes": 75,
+    "servings": 6,
+    "difficulty": "facile",
+    "tags": ["plat", "végétarien", "four"],
+    "ingredients": [
+      {"key": "pomme_de_terre", "label": "1,2 kg de pommes de terre à chair ferme"},
+      {"key": "lait", "label": "50 cl de lait entier"},
+      {"key": "creme", "label": "25 cl de crème liquide entière"},
+      {"key": "ail", "label": "2 gousses d'ail"},
+      {"key": "beurre", "label": "20 g de beurre"},
+      {"key": "epices", "label": "1 pincée de noix de muscade"},
+      {"key": "sel", "label": "Sel"},
+      {"key": "poivre", "label": "Poivre"}
+    ],
+    "steps": [
+      "Préchauffer le four à 160 °C (th. 5-6). Éplucher les pommes de terre et les couper en rondelles de 3 mm, sans les laver pour garder l'amidon.",
+      "Frotter un plat à gratin avec une gousse d'ail coupée en deux, puis le beurrer généreusement.",
+      "Dans une grande casserole, porter à frémissement le lait et la crème avec l'ail écrasé, la muscade, du sel et du poivre.",
+      "Plonger les rondelles de pommes de terre dans le mélange et cuire 10 minutes à feu doux en remuant délicatement pour qu'elles n'attachent pas.",
+      "Verser le tout dans le plat, égaliser la surface et parsemer de quelques noisettes de beurre.",
+      "Enfourner 1 heure à 1 heure 15, jusqu'à ce que le dessus soit doré et que la pointe d'un couteau s'enfonce sans résistance. Laisser reposer 10 minutes avant de servir."
+    ]
+  },
+  {
+    "slug": "gratin-courgettes",
+    "title": "Gratin de courgettes",
+    "wiki": null,
+    "prep_minutes": 15,
+    "cook_minutes": 40,
+    "servings": 4,
+    "difficulty": "facile",
+    "tags": ["plat", "végétarien", "four"],
+    "ingredients": [
+      {"key": "courgette", "label": "1 kg de courgettes"},
+      {"key": "oeufs", "label": "2 œufs"},
+      {"key": "creme", "label": "20 cl de crème fraîche", "alt": ["lait"]},
+      {"key": "emmental", "label": "80 g de fromage râpé", "alt": ["comte", "parmesan"]},
+      {"key": "oignon", "label": "1 oignon"},
+      {"key": "ail", "label": "1 gousse d'ail"},
+      {"key": "herbes_sechees", "label": "1 c. à café de thym", "optional": true},
+      {"key": "huile", "label": "2 c. à soupe d'huile d'olive"},
+      {"key": "sel", "label": "Sel"},
+      {"key": "poivre", "label": "Poivre"}
+    ],
+    "steps": [
+      "Préchauffer le four à 200 °C (th. 6-7). Laver les courgettes et les couper en rondelles de 5 mm ; émincer l'oignon et hacher l'ail.",
+      "Faire revenir l'oignon et les courgettes dans l'huile d'olive 10 minutes à feu moyen-vif pour qu'elles rendent leur eau. Ajouter l'ail et le thym, saler, poivrer, puis égoutter.",
+      "Battre les œufs avec la crème et la moitié du fromage ; saler légèrement et poivrer.",
+      "Répartir les courgettes dans un plat à gratin huilé et les napper de l'appareil aux œufs.",
+      "Parsemer du reste de fromage et enfourner 25 à 30 minutes, jusqu'à ce que le gratin soit pris et bien doré."
+    ]
+  },
+  {
+    "slug": "veloute-potiron",
+    "title": "Velouté de potiron",
+    "wiki": "Soupe de potiron",
+    "prep_minutes": 15,
+    "cook_minutes": 30,
+    "servings": 4,
+    "difficulty": "facile",
+    "tags": ["soupe", "entrée", "végétarien", "mijoté"],
+    "ingredients": [
+      {"key": "potiron", "label": "1 kg de potiron (ou de potimarron)"},
+      {"key": "pomme_de_terre", "label": "1 pomme de terre", "optional": true},
+      {"key": "oignon", "label": "1 oignon"},
+      {"key": "bouillon", "label": "75 cl de bouillon de légumes"},
+      {"key": "creme", "label": "10 cl de crème liquide", "optional": true, "alt": ["lait", "lait_coco"]},
+      {"key": "beurre", "label": "20 g de beurre"},
+      {"key": "epices", "label": "1 pincée de noix de muscade"},
+      {"key": "sel", "label": "Sel"},
+      {"key": "poivre", "label": "Poivre"}
+    ],
+    "steps": [
+      "Éplucher le potiron (inutile pour le potimarron), retirer les graines et le couper en cubes. Éplucher et couper la pomme de terre, émincer l'oignon.",
+      "Faire fondre le beurre dans une cocotte et y faire suer l'oignon 3 minutes sans coloration.",
+      "Ajouter le potiron et la pomme de terre, remuer 2 minutes, puis verser le bouillon : il doit juste couvrir les légumes.",
+      "Porter à ébullition, couvrir et cuire 25 minutes à feu moyen, jusqu'à ce que les légumes soient très tendres.",
+      "Mixer finement, ajouter la crème et la muscade, saler et poivrer. Allonger avec un peu d'eau ou de lait si le velouté est trop épais."
+    ]
+  },
+  {
+    "slug": "soupe-poireaux-pommes-de-terre",
+    "title": "Soupe poireaux-pommes de terre",
+    "wiki": "Soupe de poireaux",
+    "prep_minutes": 15,
+    "cook_minutes": 30,
+    "servings": 4,
+    "difficulty": "facile",
+    "tags": ["soupe", "végétarien", "mijoté"],
+    "ingredients": [
+      {"key": "poireau", "label": "3 poireaux"},
+      {"key": "pomme_de_terre", "label": "500 g de pommes de terre"},
+      {"key": "oignon", "label": "1 oignon", "optional": true},
+      {"key": "beurre", "label": "30 g de beurre"},
+      {"key": "bouillon", "label": "1 litre de bouillon de légumes (ou d'eau)"},
+      {"key": "creme", "label": "2 c. à soupe de crème fraîche", "optional": true, "alt": ["lait"]},
+      {"key": "sel", "label": "Sel"},
+      {"key": "poivre", "label": "Poivre"}
+    ],
+    "steps": [
+      "Couper la base et le vert foncé des poireaux, les fendre en deux et les laver soigneusement pour retirer la terre, puis les émincer.",
+      "Éplucher les pommes de terre et les couper en cubes ; émincer l'oignon.",
+      "Faire fondre le beurre dans une cocotte et y faire suer les poireaux et l'oignon 5 minutes à feu doux.",
+      "Ajouter les pommes de terre et le bouillon, saler (peu si le bouillon est déjà salé), poivrer et porter à ébullition.",
+      "Couvrir et laisser cuire 25 minutes à petits frémissements.",
+      "Mixer plus ou moins finement selon les goûts, ajouter la crème et rectifier l'assaisonnement."
+    ]
+  },
+  {
+    "slug": "tarte-fine-tomate-chevre",
+    "title": "Tarte fine tomate-chèvre",
+    "wiki": "Tarte à la tomate",
+    "prep_minutes": 15,
+    "cook_minutes": 25,
+    "servings": 4,
+    "difficulty": "facile",
+    "tags": ["plat", "végétarien", "four"],
+    "ingredients": [
+      {"key": "pate_feuilletee", "label": "1 pâte feuilletée", "alt": ["pate_brisee"]},
+      {"key": "tomate", "label": "4 tomates"},
+      {"key": "chevre", "label": "150 g de bûche de chèvre"},
+      {"key": "moutarde", "label": "2 c. à soupe de moutarde"},
+      {"key": "herbes_sechees", "label": "1 c. à café de thym"},
+      {"key": "miel", "label": "1 c. à soupe de miel", "optional": true},
+      {"key": "basilic", "label": "Quelques feuilles de basilic", "optional": true},
+      {"key": "huile", "label": "1 c. à soupe d'huile d'olive"},
+      {"key": "sel", "label": "Sel"},
+      {"key": "poivre", "label": "Poivre"}
+    ],
+    "steps": [
+      "Préchauffer le four à 200 °C (th. 6-7). Dérouler la pâte sur une plaque recouverte de papier cuisson et la piquer à la fourchette.",
+      "Étaler la moutarde sur la pâte en laissant une bordure de 1 cm.",
+      "Couper les tomates en rondelles fines, les laisser quelques minutes sur du papier absorbant pour retirer l'excédent de jus, puis les disposer en rosace sur la pâte.",
+      "Ajouter le chèvre coupé en rondelles, parsemer de thym, saler légèrement, poivrer et arroser d'un filet d'huile d'olive et de miel.",
+      "Enfourner 25 minutes, jusqu'à ce que la pâte soit bien dorée et gonflée sur les bords.",
+      "Parsemer de basilic ciselé et servir chaud, avec une salade verte."
+    ]
+  },
+  {
+    "slug": "flamiche-poireaux",
+    "title": "Flamiche aux poireaux",
+    "wiki": "Flamiche aux poireaux",
+    "prep_minutes": 20,
+    "cook_minutes": 50,
+    "servings": 6,
+    "difficulty": "facile",
+    "tags": ["plat", "végétarien", "four"],
+    "ingredients": [
+      {"key": "pate_brisee", "label": "1 pâte brisée", "alt": ["pate_feuilletee"]},
+      {"key": "poireau", "label": "4 poireaux (environ 800 g)"},
+      {"key": "oeufs", "label": "3 œufs"},
+      {"key": "creme", "label": "20 cl de crème fraîche épaisse"},
+      {"key": "beurre", "label": "40 g de beurre"},
+      {"key": "emmental", "label": "50 g de fromage râpé", "optional": true},
+      {"key": "epices", "label": "1 pincée de noix de muscade"},
+      {"key": "sel", "label": "Sel"},
+      {"key": "poivre", "label": "Poivre"}
+    ],
+    "steps": [
+      "Nettoyer les poireaux en gardant le blanc et le vert tendre, les couper en fines rondelles et bien les laver.",
+      "Faire fondre les poireaux dans le beurre, à couvert et à feu doux, pendant 20 minutes en remuant de temps en temps : ils doivent être tendres sans colorer. Saler, poivrer et laisser tiédir.",
+      "Préchauffer le four à 200 °C (th. 6-7). Foncer un moule à tarte avec la pâte et la piquer à la fourchette.",
+      "Battre les œufs avec la crème, la muscade, du sel et du poivre, puis incorporer les poireaux.",
+      "Verser la préparation sur la pâte et parsemer de fromage râpé.",
+      "Enfourner 30 minutes, jusqu'à ce que la flamiche soit bien dorée et la garniture prise. Servir chaude ou tiède."
+    ]
+  },
+  {
+    "slug": "salade-caprese",
+    "title": "Salade caprese",
+    "wiki": "Salade caprese",
+    "prep_minutes": 10,
+    "cook_minutes": 0,
+    "servings": 4,
+    "difficulty": "facile",
+    "tags": ["entrée", "salade", "végétarien", "rapide"],
+    "ingredients": [
+      {"key": "tomate", "label": "4 belles tomates bien mûres"},
+      {"key": "mozzarella", "label": "250 g de mozzarella di bufala (2 boules)"},
+      {"key": "basilic", "label": "1 bouquet de basilic"},
+      {"key": "huile", "label": "4 c. à soupe d'huile d'olive"},
+      {"key": "vinaigre", "label": "1 c. à soupe de vinaigre balsamique", "optional": true},
+      {"key": "sel", "label": "Fleur de sel"},
+      {"key": "poivre", "label": "Poivre"}
+    ],
+    "steps": [
+      "Sortir la mozzarella du réfrigérateur 15 minutes à l'avance pour la servir à température ambiante.",
+      "Laver les tomates et les couper en tranches de 5 mm ; égoutter la mozzarella et la couper en tranches de même épaisseur.",
+      "Disposer en alternance les tranches de tomate et de mozzarella sur un plat, en glissant des feuilles de basilic entre elles.",
+      "Assaisonner de fleur de sel et de poivre, arroser d'huile d'olive et, si on le souhaite, d'un filet de vinaigre balsamique. Servir aussitôt."
+    ]
+  },
+  {
+    "slug": "aubergines-parmigiana",
+    "title": "Aubergines à la parmigiana",
+    "wiki": "Parmigiana",
+    "prep_minutes": 45,
+    "cook_minutes": 60,
+    "servings": 6,
+    "difficulty": "moyen",
+    "tags": ["plat", "végétarien", "four"],
+    "ingredients": [
+      {"key": "aubergine", "label": "3 aubergines (environ 1 kg)"},
+      {"key": "tomates_conserve", "label": "70 cl de coulis de tomate (passata)", "alt": ["tomate"]},
+      {"key": "mozzarella", "label": "250 g de mozzarella"},
+      {"key": "parmesan", "label": "80 g de parmesan râpé"},
+      {"key": "oignon", "label": "1 oignon"},
+      {"key": "ail", "label": "2 gousses d'ail"},
+      {"key": "basilic", "label": "1 bouquet de basilic", "optional": true},
+      {"key": "huile", "label": "10 cl d'huile d'olive"},
+      {"key": "sel", "label": "Sel"},
+      {"key": "poivre", "label": "Poivre"}
+    ],
+    "steps": [
+      "Couper les aubergines dans la longueur en tranches de 5 mm, les saler et les laisser dégorger 30 minutes dans une passoire. Les rincer et bien les sécher.",
+      "Préparer la sauce : faire revenir l'oignon émincé et l'ail haché dans 2 c. à soupe d'huile, ajouter le coulis de tomate, saler, poivrer et laisser mijoter 20 minutes à feu doux.",
+      "Faire dorer les tranches d'aubergine à la poêle avec le reste d'huile (ou 15 minutes au four à 220 °C sur une plaque huilée), jusqu'à ce qu'elles soient tendres.",
+      "Préchauffer le four à 180 °C (th. 6). Dans un plat à gratin, étaler une couche de sauce, puis une couche d'aubergines, quelques tranches de mozzarella, du parmesan et des feuilles de basilic.",
+      "Répéter l'opération jusqu'à épuisement des ingrédients, en terminant par la sauce, la mozzarella et le parmesan.",
+      "Enfourner 35 à 40 minutes, jusqu'à ce que le dessus soit gratiné. Laisser reposer 10 minutes avant de servir."
+    ]
+  },
+  {
+    "slug": "salade-grecque",
+    "title": "Salade grecque",
+    "wiki": "Salade grecque",
+    "prep_minutes": 15,
+    "cook_minutes": 0,
+    "servings": 4,
+    "difficulty": "facile",
+    "tags": ["salade", "entrée", "végétarien", "rapide"],
+    "ingredients": [
+      {"key": "tomate", "label": "4 tomates"},
+      {"key": "concombre", "label": "1 concombre"},
+      {"key": "feta", "label": "200 g de feta"},
+      {"key": "olive", "label": "100 g d'olives noires (type kalamata)"},
+      {"key": "poivron", "label": "1 poivron vert", "optional": true},
+      {"key": "oignon", "label": "1 oignon rouge"},
+      {"key": "herbes_sechees", "label": "1 c. à café d'origan séché"},
+      {"key": "huile", "label": "5 c. à soupe d'huile d'olive"},
+      {"key": "vinaigre", "label": "1 c. à soupe de vinaigre de vin rouge", "optional": true},
+      {"key": "sel", "label": "Sel"},
+      {"key": "poivre", "label": "Poivre"}
+    ],
+    "steps": [
+      "Laver les légumes. Couper les tomates en quartiers, le concombre en demi-rondelles épaisses et le poivron en fines lanières.",
+      "Émincer l'oignon rouge en fines rondelles.",
+      "Réunir les légumes et les olives dans un saladier, saler légèrement (la feta est déjà salée) et poivrer.",
+      "Poser la feta en bloc ou en gros morceaux par-dessus, saupoudrer d'origan et arroser d'huile d'olive et de vinaigre au moment de servir."
+    ]
+  },
+  {
+    "slug": "dahl-lentilles-corail",
+    "title": "Dahl de lentilles corail",
+    "wiki": null,
+    "prep_minutes": 10,
+    "cook_minutes": 25,
+    "servings": 4,
+    "difficulty": "facile",
+    "tags": ["plat", "végétarien", "mijoté"],
+    "ingredients": [
+      {"key": "lentilles", "label": "250 g de lentilles corail"},
+      {"key": "lait_coco", "label": "40 cl de lait de coco"},
+      {"key": "tomates_conserve", "label": "400 g de tomates concassées", "alt": ["tomate"]},
+      {"key": "oignon", "label": "1 oignon"},
+      {"key": "ail", "label": "2 gousses d'ail"},
+      {"key": "gingembre", "label": "2 cm de gingembre frais", "optional": true},
+      {"key": "epices", "label": "2 c. à café de curry et 1 c. à café de curcuma"},
+      {"key": "eau", "label": "50 cl d'eau"},
+      {"key": "huile", "label": "2 c. à soupe d'huile"},
+      {"key": "citron", "label": "½ citron vert", "optional": true},
+      {"key": "coriandre", "label": "Quelques brins de coriandre", "optional": true},
+      {"key": "riz", "label": "Riz basmati pour accompagner", "optional": true},
+      {"key": "sel", "label": "Sel"}
+    ],
+    "steps": [
+      "Rincer les lentilles à l'eau froide jusqu'à ce que l'eau soit claire.",
+      "Émincer l'oignon, hacher l'ail et râper le gingembre.",
+      "Dans une cocotte, faire revenir l'oignon dans l'huile 5 minutes, puis ajouter l'ail, le gingembre et les épices et cuire 1 minute en remuant.",
+      "Ajouter les lentilles, les tomates, le lait de coco et l'eau. Saler, porter à ébullition, puis laisser mijoter 20 minutes à feu doux en remuant régulièrement, jusqu'à ce que les lentilles soient fondantes.",
+      "Ajouter un filet de jus de citron vert, rectifier l'assaisonnement et parsemer de coriandre. Servir avec du riz basmati."
+    ]
+  },
+  {
+    "slug": "guacamole",
+    "title": "Guacamole",
+    "wiki": "Guacamole",
+    "prep_minutes": 10,
+    "cook_minutes": 0,
+    "servings": 4,
+    "difficulty": "facile",
+    "tags": ["entrée", "végétarien", "rapide"],
+    "ingredients": [
+      {"key": "avocat", "label": "3 avocats bien mûrs"},
+      {"key": "citron", "label": "1 citron vert"},
+      {"key": "oignon", "label": "½ oignon rouge"},
+      {"key": "tomate", "label": "1 tomate", "optional": true},
+      {"key": "coriandre", "label": "Quelques brins de coriandre", "optional": true},
+      {"key": "epices", "label": "1 pincée de piment", "optional": true},
+      {"key": "sel", "label": "Sel"}
+    ],
+    "steps": [
+      "Couper les avocats en deux, retirer le noyau et prélever la chair à la cuillère.",
+      "L'écraser grossièrement à la fourchette avec le jus du citron vert et une bonne pincée de sel.",
+      "Hacher finement l'oignon rouge, épépiner la tomate et la couper en petits dés, ciseler la coriandre.",
+      "Incorporer le tout à l'avocat avec le piment, goûter et rectifier l'assaisonnement.",
+      "Servir aussitôt avec des chips de maïs ou des bâtonnets de légumes. Pour le garder quelques heures, le couvrir de film alimentaire au contact."
+    ]
+  },
+  {
+    "slug": "taboule",
+    "title": "Taboulé",
+    "wiki": "Taboulé",
+    "prep_minutes": 20,
+    "cook_minutes": 0,
+    "servings": 4,
+    "difficulty": "facile",
+    "tags": ["salade", "entrée", "végétarien"],
+    "ingredients": [
+      {"key": "semoule", "label": "250 g de semoule moyenne (ou de boulgour)"},
+      {"key": "tomate", "label": "3 tomates"},
+      {"key": "concombre", "label": "½ concombre"},
+      {"key": "poivron", "label": "1 poivron", "optional": true},
+      {"key": "oignon", "label": "1 oignon nouveau"},
+      {"key": "persil", "label": "1 bouquet de persil plat"},
+      {"key": "menthe", "label": "1 bouquet de menthe"},
+      {"key": "citron", "label": "2 citrons"},
+      {"key": "huile", "label": "6 c. à soupe d'huile d'olive"},
+      {"key": "eau", "label": "15 cl d'eau"},
+      {"key": "sel", "label": "Sel"},
+      {"key": "poivre", "label": "Poivre"}
+    ],
+    "steps": [
+      "Verser la semoule dans un saladier, l'arroser du jus des citrons, de l'huile d'olive et de l'eau tiède salée, mélanger et laisser gonfler 10 minutes.",
+      "Égrener la semoule à la fourchette pour séparer les grains.",
+      "Couper les tomates, le concombre et le poivron en petits dés ; hacher finement l'oignon, le persil et la menthe.",
+      "Ajouter les légumes et les herbes à la semoule, saler, poivrer et mélanger.",
+      "Couvrir et réserver au moins 1 heure au réfrigérateur. Mélanger et rectifier l'assaisonnement en citron et en huile avant de servir bien frais."
+    ]
+  },
+  {
+    "slug": "gaspacho",
+    "title": "Gaspacho",
+    "wiki": "Gaspacho",
+    "prep_minutes": 15,
+    "cook_minutes": 0,
+    "servings": 4,
+    "difficulty": "facile",
+    "tags": ["soupe", "entrée", "végétarien"],
+    "ingredients": [
+      {"key": "tomate", "label": "1 kg de tomates bien mûres"},
+      {"key": "concombre", "label": "½ concombre"},
+      {"key": "poivron", "label": "1 poivron rouge"},
+      {"key": "oignon", "label": "½ oignon"},
+      {"key": "ail", "label": "1 gousse d'ail"},
+      {"key": "pain", "label": "1 tranche de pain rassis", "optional": true, "alt": ["pain_de_mie"]},
+      {"key": "huile", "label": "6 c. à soupe d'huile d'olive"},
+      {"key": "vinaigre", "label": "2 c. à soupe de vinaigre de Xérès (ou de vin)"},
+      {"key": "sel", "label": "Sel"},
+      {"key": "poivre", "label": "Poivre"}
+    ],
+    "steps": [
+      "Laver les légumes. Couper grossièrement les tomates, le concombre épluché, le poivron épépiné et l'oignon ; dégermer l'ail.",
+      "Faire tremper le pain rassis quelques minutes dans un peu d'eau, puis l'essorer.",
+      "Mixer longuement tous les légumes avec le pain, l'huile d'olive, le vinaigre, du sel et du poivre, jusqu'à obtenir une texture lisse.",
+      "Passer au chinois ou dans une passoire fine pour une texture plus veloutée, et allonger d'un peu d'eau froide si nécessaire.",
+      "Réserver au moins 2 heures au réfrigérateur. Servir bien frais, garni de petits dés de concombre et de poivron."
+    ]
+  },
+  {
+    "slug": "gratin-chou-fleur",
+    "title": "Gratin de chou-fleur",
+    "wiki": null,
+    "prep_minutes": 20,
+    "cook_minutes": 35,
+    "servings": 4,
+    "difficulty": "facile",
+    "tags": ["plat", "végétarien", "four"],
+    "ingredients": [
+      {"key": "chou_fleur", "label": "1 chou-fleur (environ 1 kg)"},
+      {"key": "lait", "label": "50 cl de lait"},
+      {"key": "beurre", "label": "40 g de beurre"},
+      {"key": "farine", "label": "40 g de farine"},
+      {"key": "emmental", "label": "100 g de fromage râpé", "alt": ["comte"]},
+      {"key": "epices", "label": "1 pincée de noix de muscade"},
+      {"key": "sel", "label": "Sel"},
+      {"key": "poivre", "label": "Poivre"}
+    ],
+    "steps": [
+      "Préchauffer le four à 200 °C (th. 6-7). Détacher le chou-fleur en bouquets et les cuire 8 à 10 minutes dans l'eau bouillante salée : ils doivent rester légèrement fermes. Bien égoutter.",
+      "Préparer la béchamel : faire fondre le beurre dans une casserole, ajouter la farine et cuire 1 minute en fouettant.",
+      "Verser le lait petit à petit sans cesser de fouetter et cuire 5 minutes à feu doux jusqu'à épaississement. Saler, poivrer, ajouter la muscade et la moitié du fromage.",
+      "Disposer le chou-fleur dans un plat à gratin beurré et le napper de béchamel.",
+      "Parsemer du reste de fromage et enfourner 20 à 25 minutes, jusqu'à ce que le dessus soit bien gratiné."
+    ]
+  },
+  {
+    "slug": "salade-chevre-chaud",
+    "title": "Salade de chèvre chaud",
+    "wiki": "Salade de chèvre chaud",
+    "prep_minutes": 10,
+    "cook_minutes": 5,
+    "servings": 4,
+    "difficulty": "facile",
+    "tags": ["salade", "entrée", "végétarien", "four", "rapide"],
+    "ingredients": [
+      {"key": "salade", "label": "200 g de salade (mesclun, frisée ou mâche)"},
+      {"key": "chevre", "label": "4 crottins de chèvre (ou 8 rondelles de bûche)"},
+      {"key": "pain", "label": "8 tranches de baguette", "alt": ["pain_de_mie"]},
+      {"key": "tomate", "label": "8 tomates cerises", "optional": true},
+      {"key": "miel", "label": "2 c. à soupe de miel", "optional": true},
+      {"key": "amandes", "label": "40 g de cerneaux de noix", "optional": true},
+      {"key": "moutarde", "label": "1 c. à café de moutarde"},
+      {"key": "vinaigre", "label": "1 c. à soupe de vinaigre balsamique"},
+      {"key": "huile", "label": "3 c. à soupe d'huile d'olive"},
+      {"key": "sel", "label": "Sel"},
+      {"key": "poivre", "label": "Poivre"}
+    ],
+    "steps": [
+      "Préchauffer le gril du four. Laver et essorer la salade.",
+      "Préparer la vinaigrette en mélangeant la moutarde, le vinaigre, l'huile, du sel et du poivre.",
+      "Couper les crottins en deux dans l'épaisseur et poser chaque moitié sur une tranche de pain. Arroser d'un filet de miel et poivrer.",
+      "Passer sous le gril 4 à 5 minutes, jusqu'à ce que le fromage soit fondant et légèrement doré.",
+      "Mélanger la salade avec la vinaigrette, les tomates cerises coupées en deux et les noix, la répartir dans les assiettes et déposer 2 toasts chauds par personne. Servir aussitôt."
+    ]
+  },
+  {
+    "slug": "souffle-fromage",
+    "title": "Soufflé au fromage",
+    "wiki": "Soufflé au fromage",
+    "prep_minutes": 20,
+    "cook_minutes": 30,
+    "servings": 4,
+    "difficulty": "moyen",
+    "tags": ["plat", "végétarien", "four"],
+    "ingredients": [
+      {"key": "oeufs", "label": "4 œufs"},
+      {"key": "comte", "label": "100 g de comté râpé", "alt": ["emmental", "parmesan"]},
+      {"key": "lait", "label": "25 cl de lait"},
+      {"key": "beurre", "label": "40 g de beurre (+ pour le moule)"},
+      {"key": "farine", "label": "40 g de farine (+ pour le moule)"},
+      {"key": "epices", "label": "1 pincée de noix de muscade"},
+      {"key": "sel", "label": "Sel"},
+      {"key": "poivre", "label": "Poivre"}
+    ],
+    "steps": [
+      "Préchauffer le four à 200 °C (th. 6-7). Beurrer généreusement un moule à soufflé de 18 cm et le fariner.",
+      "Faire fondre le beurre dans une casserole, ajouter la farine et cuire 1 minute en fouettant. Verser le lait petit à petit et cuire jusqu'à obtenir une béchamel épaisse. Saler, poivrer, ajouter la muscade et retirer du feu.",
+      "Séparer les blancs des jaunes. Incorporer les jaunes un à un à la béchamel tiédie, puis le fromage.",
+      "Monter les blancs en neige ferme avec une pincée de sel. En incorporer un tiers vivement à la préparation, puis ajouter délicatement le reste à la spatule, en soulevant la masse.",
+      "Verser dans le moule aux trois quarts de sa hauteur, lisser et passer le pouce le long du bord intérieur pour aider le soufflé à monter droit.",
+      "Enfourner 25 à 30 minutes sans ouvrir la porte, jusqu'à ce qu'il soit bien gonflé et doré. Servir immédiatement."
+    ]
+  },
+  {
+    "slug": "gnocchis-epinards-creme",
+    "title": "Gnocchis poêlés aux épinards et à la crème",
+    "wiki": "Gnocchi",
+    "prep_minutes": 5,
+    "cook_minutes": 15,
+    "servings": 4,
+    "difficulty": "facile",
+    "tags": ["plat", "végétarien", "poêle", "rapide"],
+    "ingredients": [
+      {"key": "gnocchis", "label": "800 g de gnocchis frais"},
+      {"key": "epinard", "label": "200 g de pousses d'épinard"},
+      {"key": "creme", "label": "20 cl de crème fraîche"},
+      {"key": "parmesan", "label": "50 g de parmesan râpé", "alt": ["emmental"]},
+      {"key": "ail", "label": "1 gousse d'ail"},
+      {"key": "beurre", "label": "20 g de beurre"},
+      {"key": "epices", "label": "1 pincée de noix de muscade", "optional": true},
+      {"key": "sel", "label": "Sel"},
+      {"key": "poivre", "label": "Poivre"}
+    ],
+    "steps": [
+      "Faire fondre le beurre dans une grande poêle à feu moyen-vif. Ajouter les gnocchis directement, sans précuisson, et les faire dorer 6 à 8 minutes en remuant régulièrement.",
+      "Ajouter l'ail haché et cuire 1 minute.",
+      "Ajouter les épinards par poignées et les laisser tomber 2 minutes en remuant.",
+      "Verser la crème, ajouter la muscade, saler, poivrer et laisser réduire 2 à 3 minutes, jusqu'à ce que la sauce nappe les gnocchis.",
+      "Parsemer de parmesan et servir aussitôt."
+    ]
+  },
+  {
+    "slug": "tarte-aux-pommes",
+    "title": "Tarte aux pommes",
+    "wiki": "Tarte aux pommes",
+    "prep_minutes": 20,
+    "cook_minutes": 35,
+    "servings": 6,
+    "difficulty": "facile",
+    "tags": ["dessert", "végétarien", "four"],
+    "ingredients": [
+      {"key": "pate_brisee", "label": "1 pâte brisée", "alt": ["pate_sablee", "pate_feuilletee"]},
+      {"key": "pomme", "label": "5 pommes (golden ou reinette)"},
+      {"key": "sucre", "label": "50 g de sucre"},
+      {"key": "beurre", "label": "30 g de beurre"},
+      {"key": "epices", "label": "1 pincée de cannelle", "optional": true}
+    ],
+    "steps": [
+      "Préchauffer le four à 200 °C (th. 6-7). Foncer un moule à tarte avec la pâte et la piquer à la fourchette.",
+      "Éplucher les pommes, retirer le cœur et les couper en fines lamelles.",
+      "Hacher grossièrement l'équivalent d'une pomme (les lamelles les moins jolies) et les répartir sur le fond de tarte avec la moitié du sucre.",
+      "Disposer les autres lamelles en rosace en les faisant se chevaucher.",
+      "Saupoudrer du reste de sucre et de cannelle, et parsemer de petits morceaux de beurre.",
+      "Enfourner 35 minutes, jusqu'à ce que la pâte soit dorée et les pommes légèrement caramélisées. Servir tiède."
+    ]
+  },
+  {
+    "slug": "clafoutis-cerises",
+    "title": "Clafoutis aux cerises",
+    "wiki": "Clafoutis",
+    "prep_minutes": 15,
+    "cook_minutes": 40,
+    "servings": 6,
+    "difficulty": "facile",
+    "tags": ["dessert", "végétarien", "four"],
+    "ingredients": [
+      {"key": "cerise", "label": "500 g de cerises", "alt": ["fruits_rouges", "abricot"]},
+      {"key": "oeufs", "label": "4 œufs"},
+      {"key": "farine", "label": "80 g de farine"},
+      {"key": "sucre", "label": "100 g de sucre"},
+      {"key": "lait", "label": "30 cl de lait"},
+      {"key": "beurre", "label": "20 g de beurre pour le plat"},
+      {"key": "vanille", "label": "1 c. à café d'extrait de vanille", "optional": true},
+      {"key": "sel", "label": "1 pincée de sel"}
+    ],
+    "steps": [
+      "Préchauffer le four à 180 °C (th. 6). Beurrer un plat à gratin et le saupoudrer d'un peu de sucre.",
+      "Laver et équeuter les cerises. Les laisser entières avec leur noyau, comme le veut la tradition limousine, ou les dénoyauter.",
+      "Dans un saladier, fouetter les œufs avec le sucre et le sel, puis ajouter la farine et mélanger jusqu'à obtenir une pâte lisse.",
+      "Incorporer progressivement le lait et la vanille.",
+      "Répartir les cerises dans le plat et verser la pâte par-dessus.",
+      "Enfourner 35 à 40 minutes, jusqu'à ce que le clafoutis soit doré et pris. Servir tiède, saupoudré de sucre."
+    ]
+  },
+  {
+    "slug": "gateau-au-yaourt",
+    "title": "Gâteau au yaourt",
+    "wiki": "Gâteau au yaourt",
+    "prep_minutes": 10,
+    "cook_minutes": 35,
+    "servings": 6,
+    "difficulty": "facile",
+    "tags": ["dessert", "végétarien", "four"],
+    "ingredients": [
+      {"key": "yaourt", "label": "1 yaourt nature (125 g)"},
+      {"key": "farine", "label": "3 pots de farine"},
+      {"key": "sucre", "label": "2 pots de sucre"},
+      {"key": "oeufs", "label": "3 œufs"},
+      {"key": "huile", "label": "½ pot d'huile neutre"},
+      {"key": "levure", "label": "1 sachet de levure chimique"},
+      {"key": "vanille", "label": "1 c. à café d'extrait de vanille", "optional": true, "alt": ["citron"]},
+      {"key": "beurre", "label": "Un peu de beurre pour le moule"}
+    ],
+    "steps": [
+      "Préchauffer le four à 180 °C (th. 6) et beurrer un moule à manqué de 24 cm.",
+      "Verser le yaourt dans un saladier et garder le pot vide pour mesurer les autres ingrédients.",
+      "Ajouter les œufs et le sucre et fouetter jusqu'à ce que le mélange blanchisse.",
+      "Incorporer la farine et la levure, puis l'huile et la vanille (ou le zeste d'un citron), et mélanger jusqu'à obtenir une pâte lisse.",
+      "Verser dans le moule et enfourner 30 à 35 minutes : la lame d'un couteau doit ressortir sèche.",
+      "Laisser tiédir 10 minutes avant de démouler sur une grille."
+    ]
+  },
+  {
+    "slug": "banana-bread",
+    "title": "Banana bread",
+    "wiki": "Pain aux bananes",
+    "prep_minutes": 15,
+    "cook_minutes": 55,
+    "servings": 8,
+    "difficulty": "facile",
+    "tags": ["dessert", "végétarien", "four"],
+    "ingredients": [
+      {"key": "banane", "label": "3 bananes bien mûres (voire noires)"},
+      {"key": "farine", "label": "250 g de farine"},
+      {"key": "sucre", "label": "100 g de cassonade"},
+      {"key": "oeufs", "label": "2 œufs"},
+      {"key": "beurre", "label": "80 g de beurre fondu"},
+      {"key": "levure", "label": "1 c. à café de bicarbonate (ou 1 sachet de levure chimique)"},
+      {"key": "epices", "label": "1 c. à café de cannelle", "optional": true},
+      {"key": "vanille", "label": "1 c. à café d'extrait de vanille", "optional": true},
+      {"key": "amandes", "label": "50 g de noix concassées", "optional": true},
+      {"key": "sel", "label": "1 pincée de sel"}
+    ],
+    "steps": [
+      "Préchauffer le four à 180 °C (th. 6) et beurrer un moule à cake (ou le chemiser de papier cuisson).",
+      "Écraser les bananes à la fourchette en purée grossière.",
+      "Ajouter le sucre, les œufs, le beurre fondu et la vanille, et bien mélanger.",
+      "Incorporer la farine, la levure, la cannelle et le sel sans trop travailler la pâte, puis ajouter les noix.",
+      "Verser dans le moule et enfourner 50 à 55 minutes : la lame d'un couteau doit ressortir sèche. Couvrir de papier aluminium à mi-cuisson si le dessus colore trop.",
+      "Laisser tiédir 10 minutes avant de démouler sur une grille."
+    ]
+  },
+  {
+    "slug": "crumble-aux-pommes",
+    "title": "Crumble aux pommes",
+    "wiki": "Crumble",
+    "prep_minutes": 15,
+    "cook_minutes": 35,
+    "servings": 6,
+    "difficulty": "facile",
+    "tags": ["dessert", "végétarien", "four"],
+    "ingredients": [
+      {"key": "pomme", "label": "6 pommes", "alt": ["poire", "fruits_rouges"]},
+      {"key": "farine", "label": "150 g de farine"},
+      {"key": "sucre", "label": "100 g de cassonade"},
+      {"key": "beurre", "label": "100 g de beurre froid"},
+      {"key": "amandes", "label": "50 g de poudre d'amande", "optional": true},
+      {"key": "epices", "label": "1 c. à café de cannelle", "optional": true}
+    ],
+    "steps": [
+      "Préchauffer le four à 180 °C (th. 6).",
+      "Éplucher les pommes, retirer le cœur, les couper en cubes et les répartir dans un plat à gratin. Saupoudrer de cannelle et d'une cuillerée de sucre.",
+      "Dans un saladier, mélanger la farine, le reste du sucre et la poudre d'amande, puis ajouter le beurre froid coupé en dés.",
+      "Sabler du bout des doigts jusqu'à obtenir une pâte grumeleuse, sans former de boule.",
+      "Émietter la pâte sur les fruits en une couche régulière.",
+      "Enfourner 30 à 35 minutes, jusqu'à ce que le dessus soit doré et croustillant. Servir tiède, éventuellement avec de la crème fraîche."
+    ]
+  },
+  {
+    "slug": "tiramisu",
+    "title": "Tiramisu",
+    "wiki": "Tiramisu",
+    "prep_minutes": 25,
+    "cook_minutes": 0,
+    "servings": 6,
+    "difficulty": "moyen",
+    "tags": ["dessert", "végétarien"],
+    "ingredients": [
+      {"key": "mascarpone", "label": "250 g de mascarpone"},
+      {"key": "oeufs", "label": "3 œufs très frais"},
+      {"key": "sucre", "label": "80 g de sucre"},
+      {"key": "biscuits", "label": "24 biscuits à la cuillère"},
+      {"key": "cafe", "label": "30 cl de café fort refroidi"},
+      {"key": "chocolat", "label": "2 c. à soupe de cacao en poudre non sucré"},
+      {"key": "sel", "label": "1 pincée de sel"}
+    ],
+    "steps": [
+      "Préparer le café et le laisser refroidir dans une assiette creuse.",
+      "Séparer les blancs des jaunes. Fouetter les jaunes avec le sucre jusqu'à ce que le mélange blanchisse, puis incorporer le mascarpone jusqu'à obtenir une crème lisse.",
+      "Monter les blancs en neige ferme avec le sel et les incorporer délicatement à la crème à la spatule.",
+      "Tremper rapidement les biscuits dans le café, un par un, sans les détremper, et en tapisser le fond d'un plat.",
+      "Recouvrir d'une couche de crème, puis renouveler l'opération en terminant par une couche de crème.",
+      "Couvrir et réserver au moins 6 heures (idéalement une nuit) au réfrigérateur. Saupoudrer de cacao juste avant de servir."
+    ]
+  },
+  {
+    "slug": "riz-au-lait",
+    "title": "Riz au lait",
+    "wiki": "Riz au lait",
+    "prep_minutes": 5,
+    "cook_minutes": 45,
+    "servings": 6,
+    "difficulty": "facile",
+    "tags": ["dessert", "végétarien", "mijoté"],
+    "ingredients": [
+      {"key": "riz", "label": "150 g de riz rond"},
+      {"key": "lait", "label": "1 litre de lait entier"},
+      {"key": "sucre", "label": "80 g de sucre"},
+      {"key": "vanille", "label": "1 gousse de vanille (ou 1 c. à café d'extrait)"}
+    ],
+    "steps": [
+      "Rincer le riz, le plonger 2 minutes dans une casserole d'eau bouillante, puis l'égoutter.",
+      "Porter le lait à frémissement avec la gousse de vanille fendue et grattée.",
+      "Ajouter le riz et cuire 35 à 40 minutes à feu très doux et à découvert, en remuant régulièrement pour qu'il n'attache pas.",
+      "Quand le riz est tendre et crémeux, ajouter le sucre hors du feu, mélanger et retirer la gousse de vanille.",
+      "Répartir dans des ramequins et servir tiède ou bien frais."
+    ]
+  },
+  {
+    "slug": "mousse-au-chocolat",
+    "title": "Mousse au chocolat",
+    "wiki": "Mousse au chocolat",
+    "prep_minutes": 20,
+    "cook_minutes": 5,
+    "servings": 6,
+    "difficulty": "facile",
+    "tags": ["dessert", "végétarien"],
+    "ingredients": [
+      {"key": "chocolat", "label": "200 g de chocolat noir pâtissier"},
+      {"key": "oeufs", "label": "6 œufs"},
+      {"key": "sucre", "label": "30 g de sucre"},
+      {"key": "beurre", "label": "20 g de beurre", "optional": true},
+      {"key": "sel", "label": "1 pincée de sel"}
+    ],
+    "steps": [
+      "Faire fondre le chocolat avec le beurre au bain-marie (ou au micro-ondes par tranches de 30 secondes), puis le laisser tiédir.",
+      "Séparer les blancs des jaunes. Incorporer les jaunes un à un au chocolat tiède en fouettant.",
+      "Monter les blancs en neige avec le sel. Quand ils commencent à être fermes, ajouter le sucre et fouetter encore 1 minute pour les serrer.",
+      "Incorporer un tiers des blancs au chocolat en fouettant vivement, puis le reste délicatement à la spatule, en soulevant la masse jusqu'à ce qu'il ne reste plus de traces blanches.",
+      "Répartir dans des verrines ou un saladier et réserver au moins 4 heures au réfrigérateur avant de servir."
+    ]
+  }
+]
