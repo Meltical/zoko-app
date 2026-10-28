@@ -4,6 +4,7 @@ import 'package:go_router/go_router.dart';
 
 import '../../../core/router.dart';
 import '../../../shared/async_views.dart';
+import '../../household/data/household_providers.dart';
 import '../../recipes/data/recipe_providers.dart';
 import '../data/pantry_providers.dart';
 import '../domain/product.dart';
@@ -73,6 +74,7 @@ class _PantryPageState extends ConsumerState<PantryPage> {
     ];
     final cookable = ref.watch(cookableRecipesProvider).length;
     final stats = ref.watch(monthStatsProvider).value;
+    final pendingRequests = ref.watch(pendingRequestsProvider);
 
     return RefreshIndicator(
       onRefresh: ref.read(productsProvider.notifier).refresh,
@@ -83,9 +85,15 @@ class _PantryPageState extends ConsumerState<PantryPage> {
             title: const Text('Mon frigo'),
             actions: [
               IconButton(
-                tooltip: 'Réglages et foyer',
+                tooltip: pendingRequests > 0
+                    ? 'Réglages : $pendingRequests demande(s) à approuver'
+                    : 'Réglages et foyer',
                 onPressed: () => context.push(Routes.settings),
-                icon: const Icon(Icons.settings_outlined),
+                icon: Badge.count(
+                  count: pendingRequests,
+                  isLabelVisible: pendingRequests > 0,
+                  child: const Icon(Icons.settings_outlined),
+                ),
               ),
             ],
           ),

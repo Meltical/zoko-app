@@ -11,24 +11,26 @@ class WelcomePage extends ConsumerStatefulWidget {
 }
 
 class _WelcomePageState extends ConsumerState<WelcomePage> {
+  final _name = TextEditingController();
   final _code = TextEditingController();
-  bool _joining = false;
   bool _busy = false;
   String? _error;
 
   @override
   void dispose() {
+    _name.dispose();
     _code.dispose();
     super.dispose();
   }
 
-  Future<void> _run(Future<void> Function() action) async {
+  Future<void> _join() async {
+    if (_code.text.trim().isEmpty) return;
     setState(() {
       _busy = true;
       _error = null;
     });
     try {
-      await action();
+      await ref.read(householdProvider.notifier).join(_code.text, _name.text);
     } catch (error) {
       if (mounted) setState(() => _error = '$error');
     } finally {
@@ -39,8 +41,6 @@ class _WelcomePageState extends ConsumerState<WelcomePage> {
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
-    final notifier = ref.read(householdProvider.notifier);
-
     return Scaffold(
       body: SafeArea(
         child: ListView(
@@ -57,46 +57,38 @@ class _WelcomePageState extends ConsumerState<WelcomePage> {
               style: theme.textTheme.bodyLarge?.copyWith(color: theme.colorScheme.onSurfaceVariant),
             ),
             const SizedBox(height: 40),
-            if (!_joining) ...[
-              FilledButton.icon(
-                style: FilledButton.styleFrom(minimumSize: const Size.fromHeight(52)),
-                onPressed: _busy ? null : () => _run(() => notifier.create('Maison')),
-                icon: const Icon(Icons.home_outlined),
-                label: const Text('Créer mon foyer'),
+            TextField(
+              controller: _name,
+              textCapitalization: TextCapitalization.words,
+              textInputAction: TextInputAction.next,
+              decoration: const InputDecoration(
+                labelText: 'Votre prénom',
+                hintText: 'pour que le foyer vous reconnaisse',
               ),
-              const SizedBox(height: 12),
-              OutlinedButton.icon(
-                style: OutlinedButton.styleFrom(minimumSize: const Size.fromHeight(52)),
-                onPressed: _busy ? null : () => setState(() => _joining = true),
-                icon: const Icon(Icons.group_add_outlined),
-                label: const Text('Rejoindre avec un code'),
-              ),
-              const SizedBox(height: 16),
-              Text(
-                'Pas de compte ni d’e-mail : le foyer se partage avec un code, '
-                'visible dans les réglages de l’app.',
-                textAlign: TextAlign.center,
-                style: theme.textTheme.bodySmall?.copyWith(color: theme.colorScheme.onSurfaceVariant),
-              ),
-            ] else ...[
-              TextField(
-                controller: _code,
-                autofocus: true,
-                textCapitalization: TextCapitalization.characters,
-                autocorrect: false,
-                enableSuggestions: false,
-                textInputAction: TextInputAction.go,
-                onSubmitted: (_) => _run(() => notifier.join(_code.text)),
-                decoration: const InputDecoration(labelText: 'Code du foyer', hintText: 'XXXX-XXXX-XXXX'),
-              ),
-              const SizedBox(height: 12),
-              FilledButton(
-                style: FilledButton.styleFrom(minimumSize: const Size.fromHeight(52)),
-                onPressed: _busy ? null : () => _run(() => notifier.join(_code.text)),
-                child: const Text('Rejoindre'),
-              ),
-              TextButton(onPressed: _busy ? null : () => setState(() => _joining = false), child: const Text('Retour')),
-            ],
+            ),
+            const SizedBox(height: 12),
+            TextField(
+              controller: _code,
+              textCapitalization: TextCapitalization.characters,
+              autocorrect: false,
+              enableSuggestions: false,
+              textInputAction: TextInputAction.go,
+              onSubmitted: (_) => _join(),
+              decoration: const InputDecoration(labelText: 'Code du foyer', hintText: 'XXXX-XXXX-XXXX'),
+            ),
+            const SizedBox(height: 16),
+            FilledButton(
+              style: FilledButton.styleFrom(minimumSize: const Size.fromHeight(52)),
+              onPressed: _busy ? null : _join,
+              child: const Text('Rejoindre le foyer'),
+            ),
+            const SizedBox(height: 16),
+            Text(
+              'Le code se trouve dans les réglages de l’app d’un membre du foyer. '
+              'Un admin devra ensuite approuver ce téléphone.',
+              textAlign: TextAlign.center,
+              style: theme.textTheme.bodySmall?.copyWith(color: theme.colorScheme.onSurfaceVariant),
+            ),
             if (_busy) const Padding(padding: EdgeInsets.only(top: 16), child: LinearProgressIndicator()),
             if (_error != null)
               Padding(

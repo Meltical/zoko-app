@@ -122,8 +122,17 @@ class LocationSelector extends StatelessWidget {
   @override
   Widget build(BuildContext context) => SegmentedButton<StorageLocation>(
     showSelectedIcon: false,
+    style: SegmentedButton.styleFrom(
+      padding: const EdgeInsets.symmetric(horizontal: 6),
+      visualDensity: VisualDensity.compact,
+      tapTargetSize: MaterialTapTargetSize.padded,
+    ),
     segments: [
-      for (final location in StorageLocation.values) ButtonSegment(value: location, label: Text(location.label)),
+      for (final location in StorageLocation.values)
+        ButtonSegment(
+          value: location,
+          label: Text(location.label, maxLines: 1, softWrap: false, overflow: TextOverflow.fade),
+        ),
     ],
     selected: {value},
     onSelectionChanged: (selection) => onChanged(selection.single),

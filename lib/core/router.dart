@@ -3,6 +3,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 
 import '../features/household/data/household_providers.dart';
+import '../features/household/presentation/waiting_page.dart';
 import '../features/household/presentation/welcome_page.dart';
 import '../features/pantry/presentation/pantry_page.dart';
 import '../features/pantry/presentation/product_detail_page.dart';
@@ -20,6 +21,7 @@ abstract final class Routes {
   static const shopping = '/courses';
   static const settings = '/reglages';
   static const welcome = '/bienvenue';
+  static const waiting = '/attente';
   static const startup = '/demarrage';
 
   static String product(int id) => '/produit/$id';
@@ -39,13 +41,16 @@ final routerProvider = Provider<GoRouter>((ref) {
       final household = ref.read(householdProvider);
       final location = state.matchedLocation;
       if (!household.hasValue) return location == Routes.startup ? null : Routes.startup;
-      if (household.value == null) return location == Routes.welcome ? null : Routes.welcome;
-      if (location == Routes.startup || location == Routes.welcome) return Routes.pantry;
+      final membership = household.value;
+      if (membership == null) return location == Routes.welcome ? null : Routes.welcome;
+      if (!membership.approved) return location == Routes.waiting ? null : Routes.waiting;
+      if (const {Routes.startup, Routes.welcome, Routes.waiting}.contains(location)) return Routes.pantry;
       return null;
     },
     routes: [
       GoRoute(path: Routes.startup, builder: (_, _) => const StartupPage()),
       GoRoute(path: Routes.welcome, builder: (_, _) => const WelcomePage()),
+      GoRoute(path: Routes.waiting, builder: (_, _) => const WaitingPage()),
       StatefulShellRoute.indexedStack(
         builder: (context, state, shell) => HomeShell(shell: shell),
         branches: [

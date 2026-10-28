@@ -14,81 +14,128 @@ class SettingsPage extends ConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final theme = Theme.of(context);
-    final household = ref.watch(householdProvider).value;
-    final members = ref.watch(memberCountProvider).value;
+    final membership = ref.watch(householdProvider).value;
+    final isAdmin = ref.watch(isAdminProvider);
+    final code = ref.watch(joinCodeProvider).value;
+    final members = ref.watch(membersProvider).value ?? const <Member>[];
     final reminders = ref.watch(reminderSettingsProvider);
     final version = ref.watch(currentVersionProvider).value;
+    final pending = [
+      for (final member in members)
+        if (!member.approved) member,
+    ];
+    final approved = [
+      for (final member in members)
+        if (member.approved) member,
+    ];
 
     return Scaffold(
       appBar: AppBar(title: const Text('Réglages')),
       body: ListView(
         children: [
-          if (household != null) ...[
-            _SectionTitle('Foyer'),
-            ListTile(
-              leading: const Icon(Icons.home_outlined),
-              title: Text(household.name),
-              subtitle: Text(switch (members) {
-                null => ' ',
-                1 => '1 téléphone',
-                _ => '$members téléphones',
-              }),
-            ),
-            Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 16),
-              child: Card(
-                color: theme.colorScheme.surfaceContainerHigh,
-                child: Padding(
-                  padding: const EdgeInsets.all(16),
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    spacing: 8,
+          if (membership != null) ...[
+            _SectionTitle('Foyer « ${membership.householdName} »'),
+            if (isAdmin && pending.isNotEmpty) ...[
+              Padding(
+                padding: const EdgeInsets.fromLTRB(16, 4, 16, 4),
+                child: Text(
+                  pending.length == 1 ? '1 demande en attente' : '${pending.length} demandes en attente',
+                  style: theme.textTheme.titleSmall?.copyWith(color: theme.colorScheme.error),
+                ),
+              ),
+              for (final member in pending)
+                ListTile(
+                  leading: const Icon(Icons.person_add_alt_1_outlined),
+                  title: Text(member.label),
+                  subtitle: const Text('Demande à rejoindre le foyer'),
+                  trailing: Row(
+                    mainAxisSize: MainAxisSize.min,
                     children: [
-                      Text('Code pour rejoindre ce foyer', style: theme.textTheme.labelLarge),
-                      SelectableText(
-                        household.formattedCode,
-                        style: theme.textTheme.headlineSmall?.copyWith(letterSpacing: 2, fontFamily: 'monospace'),
+                      IconButton(
+                        tooltip: 'Refuser',
+                        onPressed: () => _run(context, () => ref.read(membersProvider.notifier).remove(member)),
+                        icon: const Icon(Icons.close),
                       ),
-                      Text(
-                        'Gardez-le précieusement : il permet aussi de retrouver le foyer '
-                        'si vous changez de téléphone. Toute personne qui l’a peut lire et modifier le frigo.',
-                        style: theme.textTheme.bodySmall,
-                      ),
-                      Wrap(
-                        spacing: 8,
-                        children: [
-                          TextButton.icon(
-                            onPressed: () async {
-                              await Clipboard.setData(ClipboardData(text: household.formattedCode));
-                              if (context.mounted) {
-                                ScaffoldMessenger.of(context).showSnackBar(const SnackBar(content: Text('Code copié')));
-                              }
-                            },
-                            icon: const Icon(Icons.copy),
-                            label: const Text('Copier'),
-                          ),
-                          TextButton.icon(
-                            onPressed: () => SharePlus.instance.share(
-                              ShareParams(text: 'Rejoins notre frigo sur Zoko avec le code ${household.formattedCode}'),
-                            ),
-                            icon: const Icon(Icons.share_outlined),
-                            label: const Text('Partager'),
-                          ),
-                          TextButton.icon(
-                            onPressed: () => _rotateCode(context, ref),
-                            icon: const Icon(Icons.autorenew),
-                            label: const Text('Nouveau code'),
-                          ),
-                        ],
+                      IconButton.filled(
+                        tooltip: 'Approuver',
+                        onPressed: () => _run(context, () => ref.read(membersProvider.notifier).approve(member)),
+                        icon: const Icon(Icons.check),
                       ),
                     ],
                   ),
                 ),
+            ],
+            for (final member in approved)
+              ListTile(
+                leading: Icon(member.isAdmin ? Icons.admin_panel_settings_outlined : Icons.person_outline),
+                title: Text(member.isMe ? '${member.label} (ce téléphone)' : member.label),
+                subtitle: Text(member.isAdmin ? 'Admin' : 'Membre'),
+                trailing: isAdmin && !member.isMe
+                    ? IconButton(
+                        tooltip: 'Retirer du foyer',
+                        onPressed: () => _removeMember(context, ref, member),
+                        icon: const Icon(Icons.person_remove_outlined),
+                      )
+                    : null,
               ),
-            ),
+            if (code != null)
+              Padding(
+                padding: const EdgeInsets.fromLTRB(16, 8, 16, 0),
+                child: Card(
+                  color: theme.colorScheme.surfaceContainerHigh,
+                  child: Padding(
+                    padding: const EdgeInsets.all(16),
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      spacing: 8,
+                      children: [
+                        Text('Code pour rejoindre le foyer', style: theme.textTheme.labelLarge),
+                        SelectableText(
+                          formatJoinCode(code),
+                          style: theme.textTheme.headlineSmall?.copyWith(letterSpacing: 2, fontFamily: 'monospace'),
+                        ),
+                        Text(
+                          'Un nouveau téléphone qui saisit ce code doit encore être approuvé par un admin. '
+                          'Gardez-le : il sert aussi à retrouver le foyer après un changement de téléphone.',
+                          style: theme.textTheme.bodySmall,
+                        ),
+                        Wrap(
+                          spacing: 8,
+                          children: [
+                            TextButton.icon(
+                              onPressed: () async {
+                                await Clipboard.setData(ClipboardData(text: formatJoinCode(code)));
+                                if (context.mounted) {
+                                  ScaffoldMessenger.of(context)
+                                      .showSnackBar(const SnackBar(content: Text('Code copié')));
+                                }
+                              },
+                              icon: const Icon(Icons.copy),
+                              label: const Text('Copier'),
+                            ),
+                            TextButton.icon(
+                              onPressed: () => SharePlus.instance.share(
+                                ShareParams(text: 'Rejoins notre frigo sur Zoko avec le code ${formatJoinCode(code)}'),
+                              ),
+                              icon: const Icon(Icons.share_outlined),
+                              label: const Text('Partager'),
+                            ),
+                            if (isAdmin)
+                              TextButton.icon(
+                                onPressed: () => _rotateCode(context, ref),
+                                icon: const Icon(Icons.autorenew),
+                                label: const Text('Nouveau code'),
+                              ),
+                          ],
+                        ),
+                      ],
+                    ),
+                  ),
+                ),
+              ),
           ],
           if (ReminderService.isSupported) ...[
-            _SectionTitle('Rappels'),
+            const _SectionTitle('Rappels'),
             SwitchListTile(
               secondary: const Icon(Icons.notifications_outlined),
               title: const Text('Prévenir la veille de la péremption'),
@@ -119,14 +166,14 @@ class SettingsPage extends ConsumerWidget {
                 ),
               ),
           ],
-          _SectionTitle('Application'),
+          const _SectionTitle('Application'),
           ListTile(
             leading: const Icon(Icons.system_update_outlined),
             title: Text('Version ${version ?? '…'}'),
             subtitle: Text(Updater.isSupported ? 'Rechercher une mise à jour' : 'Mises à jour via GitHub'),
             onTap: Updater.isSupported ? () => _checkUpdate(context, ref) : null,
           ),
-          if (household != null)
+          if (membership != null)
             ListTile(
               leading: Icon(Icons.logout, color: theme.colorScheme.error),
               title: Text('Quitter le foyer', style: TextStyle(color: theme.colorScheme.error)),
@@ -137,6 +184,14 @@ class SettingsPage extends ConsumerWidget {
         ],
       ),
     );
+  }
+
+  Future<void> _run(BuildContext context, Future<void> Function() action) async {
+    try {
+      await action();
+    } catch (error) {
+      if (context.mounted) ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text('$error')));
+    }
   }
 
   Future<void> _checkUpdate(BuildContext context, WidgetRef ref) async {
@@ -150,6 +205,17 @@ class SettingsPage extends ConsumerWidget {
     }
   }
 
+  Future<void> _removeMember(BuildContext context, WidgetRef ref, Member member) async {
+    final confirmed = await _confirm(
+      context,
+      title: 'Retirer ${member.label} ?',
+      message: 'Ce téléphone ne verra plus le frigo. Il pourra redemander à rejoindre avec le code.',
+      action: 'Retirer',
+      destructive: true,
+    );
+    if (confirmed && context.mounted) await _run(context, () => ref.read(membersProvider.notifier).remove(member));
+  }
+
   Future<void> _rotateCode(BuildContext context, WidgetRef ref) async {
     final confirmed = await _confirm(
       context,
@@ -157,26 +223,18 @@ class SettingsPage extends ConsumerWidget {
       message: 'L’ancien code ne marchera plus. Les téléphones déjà dans le foyer ne sont pas concernés.',
       action: 'Nouveau code',
     );
-    if (!confirmed) return;
-    try {
-      await ref.read(householdProvider.notifier).rotateCode();
-    } on HouseholdException catch (error) {
-      if (context.mounted) ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text(error.message)));
-    }
+    if (confirmed && context.mounted) await _run(context, () => ref.read(membersProvider.notifier).rotateCode());
   }
 
   Future<void> _leave(BuildContext context, WidgetRef ref) async {
-    final members = ref.read(memberCountProvider).value ?? 1;
     final confirmed = await _confirm(
       context,
       title: 'Quitter le foyer ?',
-      message: members <= 1
-          ? 'Vous êtes le dernier téléphone : le foyer et tout son contenu seront supprimés définitivement.'
-          : 'Vous pourrez revenir avec le code du foyer.',
+      message: 'Le frigo reste intact pour les autres. Vous pourrez revenir avec le code, après approbation.',
       action: 'Quitter',
       destructive: true,
     );
-    if (confirmed) await ref.read(householdProvider.notifier).leave();
+    if (confirmed && context.mounted) await _run(context, () => ref.read(householdProvider.notifier).leave());
   }
 
   Future<bool> _confirm(
