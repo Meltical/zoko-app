@@ -43,13 +43,13 @@ jobs:
           VERSION="${GITHUB_REF_NAME#v}"
           flutter build apk --release --dart-define-from-file=env.json \
             --build-name="$VERSION" --build-number="${{ github.run_number }}"
-          cp build/app/outputs/flutter-apk/app-release.apk "zoko-$VERSION.apk"
-          sha256sum "zoko-$VERSION.apk" > "zoko-$VERSION.apk.sha256"
+          cp build/app/outputs/flutter-apk/app-release.apk zoko.apk
+          sha256sum zoko.apk > zoko.apk.sha256
 
       - name: Publier la release
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
           VERSION="${GITHUB_REF_NAME#v}"
-          gh release create "$GITHUB_REF_NAME" "zoko-$VERSION.apk" "zoko-$VERSION.apk.sha256" \
+          gh release create "$GITHUB_REF_NAME" zoko.apk zoko.apk.sha256 \
             --title "Zoko $VERSION" --generate-notes

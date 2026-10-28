@@ -23,6 +23,7 @@ abstract final class Routes {
   static const welcome = '/bienvenue';
   static const waiting = '/attente';
   static const startup = '/demarrage';
+  static const join = '/rejoindre';
 
   static String product(int id) => '/produit/$id';
   static String productRecipes(int id) => '/produit/$id/recettes';
@@ -38,19 +39,24 @@ final routerProvider = Provider<GoRouter>((ref) {
     initialLocation: Routes.startup,
     refreshListenable: refresh,
     redirect: (context, state) {
+      final inviteCode = state.uri.queryParameters['code'];
+      if (state.matchedLocation == Routes.join && inviteCode != null) {
+        ref.read(pendingInviteProvider.notifier).set(inviteCode);
+      }
       final household = ref.read(householdProvider);
       final location = state.matchedLocation;
       if (!household.hasValue) return location == Routes.startup ? null : Routes.startup;
       final membership = household.value;
       if (membership == null) return location == Routes.welcome ? null : Routes.welcome;
       if (!membership.approved) return location == Routes.waiting ? null : Routes.waiting;
-      if (const {Routes.startup, Routes.welcome, Routes.waiting}.contains(location)) return Routes.pantry;
+      if (const {Routes.startup, Routes.welcome, Routes.waiting, Routes.join}.contains(location)) return Routes.pantry;
       return null;
     },
     routes: [
       GoRoute(path: Routes.startup, builder: (_, _) => const StartupPage()),
       GoRoute(path: Routes.welcome, builder: (_, _) => const WelcomePage()),
       GoRoute(path: Routes.waiting, builder: (_, _) => const WaitingPage()),
+      GoRoute(path: Routes.join, builder: (_, _) => const StartupPage()),
       StatefulShellRoute.indexedStack(
         builder: (context, state, shell) => HomeShell(shell: shell),
         branches: [

@@ -24,6 +24,15 @@ final joinCodeProvider = FutureProvider<String?>((ref) async {
   return ref.watch(householdRepositoryProvider).fetchJoinCode(householdId);
 });
 
+final pendingInviteProvider = NotifierProvider<PendingInviteNotifier, String?>(PendingInviteNotifier.new);
+
+class PendingInviteNotifier extends Notifier<String?> {
+  @override
+  String? build() => null;
+
+  void set(String code) => state = code;
+}
+
 final membersProvider = AsyncNotifierProvider<MembersNotifier, List<Member>>(MembersNotifier.new);
 
 final pendingRequestsProvider = Provider<int>((ref) {

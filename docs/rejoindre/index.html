@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<meta name="referrer" content="no-referrer">
+<title>Rejoindre un frigo sur Zoko</title>
+<style>
+  :root { --primary: #8c4559; --on-primary: #fff; --surface: #fff8f8; --card: #fcf0f2; --text: #22191b; --muted: #534347; --line: #e8d6db; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--surface); color: var(--text); font: 16px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 440px; margin: 0 auto; padding: 40px 20px 48px; display: flex; flex-direction: column; gap: 16px; }
+  header { text-align: center; display: flex; flex-direction: column; align-items: center; gap: 6px; margin-bottom: 8px; }
+  header svg { width: 56px; height: 56px; color: var(--primary); }
+  h1 { margin: 0; font-size: 24px; line-height: 1.25; font-weight: 600; }
+  header p { margin: 0; color: var(--muted); }
+  section { background: var(--card); border-radius: 20px; padding: 20px; display: flex; flex-direction: column; gap: 12px; }
+  h2 { margin: 0; font-size: 17px; font-weight: 600; }
+  .note { margin: 0; font-size: 14px; color: var(--muted); }
+  .button { display: flex; align-items: center; justify-content: center; min-height: 52px; border-radius: 26px; background: var(--primary); color: var(--on-primary); text-decoration: none; font-weight: 600; font-size: 16px; border: 0; cursor: pointer; }
+  .button.secondary { background: transparent; color: var(--primary); border: 1px solid var(--muted); }
+  .code { font: 600 26px/1.2 ui-monospace, "SF Mono", Menlo, monospace; letter-spacing: 2px; text-align: center; padding: 8px 0; user-select: all; }
+  .error { color: #a11e1e; }
+  [hidden] { display: none !important; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18 2.01 6 2c-1.1 0-2 .89-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.11-.9-1.99-2-1.99zM18 20H6v-9.02h12V20zm0-11H6V4h12v5zM8 5h2v3H8zm0 7h2v5H8z"/></svg>
+    <h1>Vous êtes invité à rejoindre un frigo sur Zoko</h1>
+    <p>Ce qu’il y a dans le frigo, quand ça périme, et quoi cuisiner avec.</p>
+  </header>
+
+  <p id="missing" class="error" hidden>Ce lien est incomplet : demandez un nouveau lien d’invitation.</p>
+
+  <section>
+    <h2>1. Installer Zoko</h2>
+    <a class="button" href="https://github.com/Meltical/zoko-app/releases/latest/download/zoko.apk">Télécharger Zoko pour Android</a>
+    <p class="note">Si Android le demande, autorisez l’installation depuis votre navigateur. Déjà installé ? Passez à l’étape 2.</p>
+  </section>
+
+  <section id="invite">
+    <h2>2. Ouvrir l’invitation</h2>
+    <a id="open" class="button" href="#">Ouvrir dans Zoko</a>
+    <p class="note">Ou saisissez ce code dans l’app, avec votre prénom :</p>
+    <div id="code" class="code"></div>
+    <button id="copy" class="button secondary" type="button">Copier le code</button>
+    <p class="note">Un admin du foyer devra ensuite approuver votre téléphone.</p>
+  </section>
+</main>
+<script>
+  const code = decodeURIComponent(location.hash.slice(1)).toUpperCase().replace(/[^0-9A-Z]/g, '');
+  if (code.length < 12) {
+    document.getElementById('missing').hidden = false;
+    document.getElementById('invite').hidden = true;
+  } else {
+    document.getElementById('code').textContent = code.match(/.{1,4}/g).join('-');
+    const deepLink = 'zoko://app/rejoindre?code=' + code;
+    const isAndroid = /Android/i.test(navigator.userAgent);
+    document.getElementById('open').href = isAndroid
+      ? 'intent://app/rejoindre?code=' + code + '#Intent;scheme=zoko;package=io.github.meltical.zoko;end'
+      : deepLink;
+    const copy = document.getElementById('copy');
+    copy.addEventListener('click', async () => {
+      try {
+        await navigator.clipboard.writeText(code);
+        copy.textContent = 'Code copié';
+      } catch {
+        copy.textContent = 'Sélectionnez le code ci-dessus';
+      }
+    });
+  }
+</script>
+</body>
+</html>

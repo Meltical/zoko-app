@@ -115,10 +115,13 @@ class SettingsPage extends ConsumerWidget {
                             ),
                             TextButton.icon(
                               onPressed: () => SharePlus.instance.share(
-                                ShareParams(text: 'Rejoins notre frigo sur Zoko avec le code ${formatJoinCode(code)}'),
+                                ShareParams(
+                                  text:
+                                      'Rejoins notre frigo « ${membership.householdName} » sur Zoko : ${inviteLink(code)}',
+                                ),
                               ),
                               icon: const Icon(Icons.share_outlined),
-                              label: const Text('Partager'),
+                              label: const Text('Partager l’invitation'),
                             ),
                             if (isAdmin)
                               TextButton.icon(

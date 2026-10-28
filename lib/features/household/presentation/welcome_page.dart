@@ -12,7 +12,7 @@ class WelcomePage extends ConsumerStatefulWidget {
 
 class _WelcomePageState extends ConsumerState<WelcomePage> {
   final _name = TextEditingController();
-  final _code = TextEditingController();
+  late final _code = TextEditingController(text: ref.read(pendingInviteProvider) ?? '');
   bool _busy = false;
   String? _error;
 
@@ -42,6 +42,9 @@ class _WelcomePageState extends ConsumerState<WelcomePage> {
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
+    ref.listen(pendingInviteProvider, (_, code) {
+      if (code != null) _code.text = code;
+    });
     return Scaffold(
       body: SafeArea(
         child: ListView(

@@ -46,6 +46,8 @@ class Member {
   String get label => displayName ?? 'Téléphone sans nom';
 }
 
+Uri inviteLink(String code) => Uri.parse('https://meltical.github.io/zoko-app/rejoindre/#${code.toUpperCase()}');
+
 String formatJoinCode(String code) =>
     [for (var i = 0; i < code.length; i += 4) code.substring(i, i + 4 > code.length ? code.length : i + 4)].join('-');
 
