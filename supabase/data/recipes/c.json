@@ -1,0 +1,2714 @@
+[
+  {
+    "slug": "blanquette-de-veau",
+    "title": "Blanquette de veau",
+    "wiki": "Blanquette de veau",
+    "prep_minutes": 25,
+    "cook_minutes": 120,
+    "servings": 6,
+    "difficulty": "moyen",
+    "tags": [
+      "plat",
+      "mijoté"
+    ],
+    "ingredients": [
+      {
+        "key": "veau",
+        "label": "1,2 kg de veau à blanquette (épaule, tendron, collier)"
+      },
+      {
+        "key": "carotte",
+        "label": "3 carottes"
+      },
+      {
+        "key": "champignon",
+        "label": "250 g de champignons de Paris"
+      },
+      {
+        "key": "creme",
+        "label": "20 cl de crème fraîche"
+      },
+      {
+        "key": "poireau",
+        "label": "1 blanc de poireau",
+        "optional": true
+      },
+      {
+        "key": "oeufs",
+        "label": "1 jaune d'œuf",
+        "optional": true
+      },
+      {
+        "key": "citron",
+        "label": "1/2 citron",
+        "optional": true
+      },
+      {
+        "key": "oignon",
+        "label": "1 oignon"
+      },
+      {
+        "key": "bouillon",
+        "label": "1,5 l de bouillon de volaille (ou d'eau)"
+      },
+      {
+        "key": "beurre",
+        "label": "40 g de beurre"
+      },
+      {
+        "key": "farine",
+        "label": "40 g de farine"
+      },
+      {
+        "key": "herbes_sechees",
+        "label": "1 bouquet garni"
+      },
+      {
+        "key": "epices",
+        "label": "1 clou de girofle",
+        "optional": true
+      },
+      {
+        "key": "riz",
+        "label": "400 g de riz pour servir",
+        "optional": true
+      },
+      {
+        "key": "sel",
+        "label": "Sel"
+      },
+      {
+        "key": "poivre",
+        "label": "Poivre"
+      }
+    ],
+    "steps": [
+      "Couper la viande en morceaux de 5 cm. Éplucher les carottes et les couper en tronçons, piquer l'oignon du clou de girofle et laver le blanc de poireau.",
+      "Mettre la viande dans une cocotte, couvrir d'eau froide et porter à ébullition. Égoutter, puis rincer la viande pour éliminer l'écume.",
+      "Remettre la viande dans la cocotte avec les carottes, l'oignon, le poireau et le bouquet garni. Couvrir de bouillon, saler légèrement et laisser frémir 1 h 30 à couvert, à feu doux.",
+      "Pendant ce temps, émincer les champignons et les faire revenir 5 minutes dans 10 g de beurre. Cuire le riz selon les indications du paquet.",
+      "Retirer la viande et les carottes avec une écumoire et filtrer le bouillon. Dans la cocotte, faire fondre le reste du beurre, ajouter la farine et remuer 2 minutes sans laisser colorer, puis verser 75 cl de bouillon en fouettant. Laisser épaissir 10 minutes à feu doux.",
+      "Hors du feu, mélanger la crème, le jaune d'œuf et le jus de citron, puis les incorporer à la sauce. Remettre la viande, les carottes et les champignons et réchauffer 5 minutes sans faire bouillir.",
+      "Rectifier l'assaisonnement et servir avec le riz."
+    ]
+  },
+  {
+    "slug": "pot-au-feu",
+    "title": "Pot-au-feu",
+    "wiki": "Pot-au-feu",
+    "prep_minutes": 30,
+    "cook_minutes": 180,
+    "servings": 6,
+    "difficulty": "facile",
+    "tags": [
+      "plat",
+      "mijoté"
+    ],
+    "ingredients": [
+      {
+        "key": "boeuf",
+        "label": "1,8 kg de bœuf à bouillir (gîte, paleron, plat de côtes, jarret) et 2 os à moelle"
+      },
+      {
+        "key": "carotte",
+        "label": "6 carottes"
+      },
+      {
+        "key": "poireau",
+        "label": "4 poireaux"
+      },
+      {
+        "key": "navet",
+        "label": "4 navets"
+      },
+      {
+        "key": "pomme_de_terre",
+        "label": "8 pommes de terre à chair ferme"
+      },
+      {
+        "key": "celeri",
+        "label": "1 branche de céleri",
+        "optional": true
+      },
+      {
+        "key": "chou",
+        "label": "1/2 chou vert",
+        "optional": true
+      },
+      {
+        "key": "oignon",
+        "label": "2 oignons"
+      },
+      {
+        "key": "ail",
+        "label": "2 gousses d'ail"
+      },
+      {
+        "key": "epices",
+        "label": "3 clous de girofle"
+      },
+      {
+        "key": "herbes_sechees",
+        "label": "1 bouquet garni"
+      },
+      {
+        "key": "eau",
+        "label": "4 l d'eau"
+      },
+      {
+        "key": "moutarde",
+        "label": "Moutarde forte pour servir",
+        "optional": true
+      },
+      {
+        "key": "cornichon",
+        "label": "Cornichons pour servir",
+        "optional": true
+      },
+      {
+        "key": "sel",
+        "label": "Gros sel"
+      },
+      {
+        "key": "poivre",
+        "label": "10 grains de poivre"
+      }
+    ],
+    "steps": [
+      "Mettre la viande dans un grand faitout, couvrir de 4 l d'eau froide et porter doucement à ébullition. Écumer soigneusement pendant 10 minutes.",
+      "Ajouter les oignons piqués des clous de girofle, l'ail, le bouquet garni, le poivre en grains et 1 c. à soupe de gros sel. Laisser frémir 2 heures à couvert, à feu très doux.",
+      "Pendant ce temps, éplucher les carottes, les navets et les pommes de terre. Laver les poireaux et les ficeler en botte, couper le céleri en tronçons et le chou en quartiers.",
+      "Ajouter les carottes, les navets, les poireaux et le céleri dans le faitout et poursuivre la cuisson 45 minutes.",
+      "Cuire les pommes de terre et le chou 25 minutes dans une casserole à part avec quelques louches de bouillon, pour que le bouillon principal reste clair. Ajouter les os à moelle dans le faitout pour les 20 dernières minutes.",
+      "Servir la viande tranchée entourée des légumes, avec du gros sel, de la moutarde et des cornichons. Dégraisser le bouillon et le servir en entrée, ou le garder pour une soupe."
+    ]
+  },
+  {
+    "slug": "navarin-agneau",
+    "title": "Navarin d'agneau",
+    "wiki": "Navarin (cuisine)",
+    "prep_minutes": 25,
+    "cook_minutes": 110,
+    "servings": 6,
+    "difficulty": "facile",
+    "tags": [
+      "plat",
+      "mijoté"
+    ],
+    "ingredients": [
+      {
+        "key": "agneau",
+        "label": "1,2 kg d'épaule et de collier d'agneau en morceaux"
+      },
+      {
+        "key": "carotte",
+        "label": "4 carottes"
+      },
+      {
+        "key": "navet",
+        "label": "4 navets nouveaux"
+      },
+      {
+        "key": "pomme_de_terre",
+        "label": "600 g de pommes de terre grenaille"
+      },
+      {
+        "key": "petits_pois",
+        "label": "200 g de petits pois",
+        "optional": true
+      },
+      {
+        "key": "haricots_verts",
+        "label": "150 g de haricots verts",
+        "optional": true
+      },
+      {
+        "key": "oignon",
+        "label": "2 oignons"
+      },
+      {
+        "key": "ail",
+        "label": "2 gousses d'ail"
+      },
+      {
+        "key": "tomates_conserve",
+        "label": "2 c. à soupe de concentré de tomate"
+      },
+      {
+        "key": "farine",
+        "label": "2 c. à soupe de farine"
+      },
+      {
+        "key": "sucre",
+        "label": "1 c. à café de sucre"
+      },
+      {
+        "key": "bouillon",
+        "label": "75 cl de bouillon"
+      },
+      {
+        "key": "herbes_sechees",
+        "label": "1 bouquet garni (thym, laurier)"
+      },
+      {
+        "key": "huile",
+        "label": "2 c. à soupe d'huile"
+      },
+      {
+        "key": "sel",
+        "label": "Sel"
+      },
+      {
+        "key": "poivre",
+        "label": "Poivre"
+      }
+    ],
+    "steps": [
+      "Éplucher les carottes et les navets et les couper en gros tronçons. Éplucher les pommes de terre et émincer les oignons.",
+      "Dans une cocotte, faire dorer les morceaux d'agneau dans l'huile en deux fournées, 8 minutes chacune à feu vif. Remettre toute la viande, saler, poivrer, saupoudrer de sucre et laisser caraméliser 1 minute.",
+      "Ajouter les oignons et les laisser fondre 3 minutes, puis saupoudrer de farine et remuer 2 minutes.",
+      "Ajouter le concentré de tomate, l'ail écrasé et le bouquet garni, puis verser le bouillon à hauteur. Couvrir et laisser mijoter 45 minutes à feu doux.",
+      "Ajouter les carottes, les navets et les pommes de terre et poursuivre la cuisson 35 minutes à couvert.",
+      "Ajouter les petits pois et les haricots verts coupés en deux et cuire encore 10 minutes. Retirer le bouquet garni et rectifier l'assaisonnement avant de servir."
+    ]
+  },
+  {
+    "slug": "gigot-agneau-roti",
+    "title": "Gigot d'agneau rôti",
+    "wiki": "Gigot",
+    "prep_minutes": 15,
+    "cook_minutes": 75,
+    "servings": 6,
+    "difficulty": "facile",
+    "tags": [
+      "plat",
+      "four"
+    ],
+    "ingredients": [
+      {
+        "key": "agneau",
+        "label": "1 gigot d'agneau d'environ 2 kg"
+      },
+      {
+        "key": "ail",
+        "label": "6 gousses d'ail"
+      },
+      {
+        "key": "herbes_sechees",
+        "label": "2 branches de romarin et quelques brins de thym"
+      },
+      {
+        "key": "pomme_de_terre",
+        "label": "1 kg de pommes de terre grenaille",
+        "optional": true
+      },
+      {
+        "key": "huile",
+        "label": "4 c. à soupe d'huile d'olive"
+      },
+      {
+        "key": "beurre",
+        "label": "30 g de beurre"
+      },
+      {
+        "key": "eau",
+        "label": "15 cl d'eau"
+      },
+      {
+        "key": "sel",
+        "label": "Sel"
+      },
+      {
+        "key": "poivre",
+        "label": "Poivre"
+      }
+    ],
+    "steps": [
+      "Sortir le gigot du réfrigérateur 1 heure avant la cuisson. Préchauffer le four à 220 °C (th. 7-8).",
+      "Éplucher 3 gousses d'ail, les couper en bâtonnets et les glisser dans la chair du gigot en l'entaillant avec la pointe d'un couteau.",
+      "Couper les pommes de terre en deux et les mettre dans un grand plat avec les gousses d'ail restantes en chemise, 2 c. à soupe d'huile, du sel et le romarin. Poser le gigot au centre, l'enduire du reste d'huile et du beurre, saler et poivrer.",
+      "Enfourner 15 minutes, puis baisser à 200 °C (th. 6-7) et cuire encore 45 minutes pour une viande rosée (55 minutes pour une viande à point), en arrosant le gigot de son jus toutes les 15 minutes. Verser l'eau dans le plat à mi-cuisson.",
+      "Sortir le gigot, l'envelopper de papier aluminium et le laisser reposer 15 minutes. Garder les pommes de terre dans le four éteint.",
+      "Déglacer le plat avec un peu d'eau chaude en grattant les sucs pour obtenir le jus. Trancher le gigot perpendiculairement à l'os et servir avec les pommes de terre et le jus."
+    ]
+  },
+  {
+    "slug": "coq-au-vin",
+    "title": "Coq au vin",
+    "wiki": "Coq au vin",
+    "prep_minutes": 30,
+    "cook_minutes": 130,
+    "servings": 6,
+    "difficulty": "moyen",
+    "tags": [
+      "plat",
+      "mijoté"
+    ],
+    "ingredients": [
+      {
+        "key": "poulet",
+        "label": "1 coq ou 1 gros poulet fermier (2 kg) découpé en morceaux"
+      },
+      {
+        "key": "vin",
+        "label": "75 cl de vin rouge corsé"
+      },
+      {
+        "key": "lardons",
+        "label": "200 g de lardons"
+      },
+      {
+        "key": "champignon",
+        "label": "250 g de champignons de Paris"
+      },
+      {
+        "key": "carotte",
+        "label": "2 carottes"
+      },
+      {
+        "key": "oignon",
+        "label": "1 oignon et 12 petits oignons grelots"
+      },
+      {
+        "key": "ail",
+        "label": "3 gousses d'ail"
+      },
+      {
+        "key": "farine",
+        "label": "2 c. à soupe de farine"
+      },
+      {
+        "key": "bouillon",
+        "label": "25 cl de bouillon de volaille"
+      },
+      {
+        "key": "herbes_sechees",
+        "label": "1 bouquet garni"
+      },
+      {
+        "key": "beurre",
+        "label": "40 g de beurre"
+      },
+      {
+        "key": "huile",
+        "label": "2 c. à soupe d'huile"
+      },
+      {
+        "key": "persil",
+        "label": "Quelques brins de persil",
+        "optional": true
+      },
+      {
+        "key": "pomme_de_terre",
+        "label": "1 kg de pommes de terre ou 400 g de tagliatelles pour servir",
+        "alt": [
+          "pates"
+        ],
+        "optional": true
+      },
+      {
+        "key": "sel",
+        "label": "Sel"
+      },
+      {
+        "key": "poivre",
+        "label": "Poivre"
+      }
+    ],
+    "steps": [
+      "Idéalement la veille, faire mariner les morceaux de volaille au réfrigérateur dans le vin, avec la carotte en rondelles, l'oignon émincé, l'ail écrasé et le bouquet garni. Égoutter et éponger la viande en gardant la marinade.",
+      "Dans une cocotte, faire dorer les lardons à sec 5 minutes, puis les réserver. Faire dorer les morceaux de volaille dans l'huile et 20 g de beurre, 10 minutes sur toutes les faces.",
+      "Saupoudrer de farine et remuer 2 minutes, puis verser la marinade avec ses légumes et le bouillon. Remettre les lardons, saler, poivrer et porter à ébullition.",
+      "Couvrir et laisser mijoter 1 h 30 à feu doux (2 heures pour un vrai coq).",
+      "Pendant ce temps, faire revenir les petits oignons épluchés dans le reste du beurre 10 minutes, puis ajouter les champignons émincés et cuire encore 5 minutes. Les ajouter dans la cocotte 20 minutes avant la fin de la cuisson.",
+      "Retirer le bouquet garni et, si la sauce est trop liquide, la faire réduire 10 minutes à découvert. Parsemer de persil et servir avec des pommes de terre vapeur ou des tagliatelles."
+    ]
+  },
+  {
+    "slug": "poulet-tikka-masala",
+    "title": "Poulet tikka masala",
+    "wiki": "Poulet tikka masala",
+    "prep_minutes": 20,
+    "cook_minutes": 35,
+    "servings": 4,
+    "difficulty": "facile",
+    "tags": [
+      "plat",
+      "mijoté"
+    ],
+    "ingredients": [
+      {
+        "key": "poulet",
+        "label": "700 g de blancs ou de hauts de cuisse de poulet",
+        "alt": [
+          "dinde"
+        ]
+      },
+      {
+        "key": "yaourt",
+        "label": "1 yaourt nature (125 g)"
+      },
+      {
+        "key": "tomates_conserve",
+        "label": "400 g de tomates concassées"
+      },
+      {
+        "key": "creme",
+        "label": "15 cl de crème liquide"
+      },
+      {
+        "key": "citron",
+        "label": "1/2 citron",
+        "optional": true
+      },
+      {
+        "key": "gingembre",
+        "label": "3 cm de gingembre frais",
+        "optional": true
+      },
+      {
+        "key": "oignon",
+        "label": "2 oignons"
+      },
+      {
+        "key": "ail",
+        "label": "3 gousses d'ail"
+      },
+      {
+        "key": "epices",
+        "label": "2 c. à soupe de garam masala, 1 c. à café de curcuma, 1 c. à café de paprika et 1 pincée de piment"
+      },
+      {
+        "key": "beurre",
+        "label": "30 g de beurre"
+      },
+      {
+        "key": "huile",
+        "label": "1 c. à soupe d'huile"
+      },
+      {
+        "key": "coriandre",
+        "label": "Quelques brins de coriandre",
+        "optional": true
+      },
+      {
+        "key": "riz",
+        "label": "300 g de riz basmati"
+      },
+      {
+        "key": "sel",
+        "label": "Sel"
+      },
+      {
+        "key": "poivre",
+        "label": "Poivre"
+      }
+    ],
+    "steps": [
+      "Couper le poulet en cubes de 3 cm. Les mélanger avec le yaourt, le jus de citron, la moitié de l'ail et du gingembre râpés, 1 c. à soupe de garam masala et 1 c. à café de sel. Laisser mariner au moins 30 minutes au réfrigérateur (jusqu'à une nuit).",
+      "Dans une grande poêle, faire dorer les morceaux de poulet égouttés dans l'huile 6 à 8 minutes à feu vif, jusqu'à ce qu'ils soient bien grillés. Réserver.",
+      "Dans la même poêle, faire fondre le beurre et faire revenir les oignons émincés 8 minutes à feu moyen. Ajouter le reste de l'ail, du gingembre et des épices et remuer 1 minute.",
+      "Verser les tomates concassées et laisser mijoter 10 minutes, puis mixer la sauce si on la préfère lisse.",
+      "Ajouter la crème et le poulet et laisser mijoter 8 minutes à feu doux. Pendant ce temps, cuire le riz selon les indications du paquet.",
+      "Parsemer de coriandre ciselée et servir avec le riz."
+    ]
+  },
+  {
+    "slug": "tajine-poulet-citron-olives",
+    "title": "Tajine de poulet au citron et aux olives",
+    "wiki": null,
+    "prep_minutes": 20,
+    "cook_minutes": 60,
+    "servings": 4,
+    "difficulty": "facile",
+    "tags": [
+      "plat",
+      "mijoté"
+    ],
+    "ingredients": [
+      {
+        "key": "poulet",
+        "label": "1 poulet découpé en 8 morceaux (ou 6 hauts de cuisse)"
+      },
+      {
+        "key": "citron",
+        "label": "2 citrons confits (ou 1 citron frais non traité)"
+      },
+      {
+        "key": "olive",
+        "label": "150 g d'olives vertes ou violettes"
+      },
+      {
+        "key": "oignon",
+        "label": "2 oignons"
+      },
+      {
+        "key": "ail",
+        "label": "3 gousses d'ail"
+      },
+      {
+        "key": "epices",
+        "label": "1 c. à café de gingembre moulu, 1 c. à café de curcuma, 1/2 c. à café de cumin et 1 pincée de safran"
+      },
+      {
+        "key": "coriandre",
+        "label": "1 bouquet de coriandre",
+        "alt": [
+          "persil"
+        ],
+        "optional": true
+      },
+      {
+        "key": "huile",
+        "label": "4 c. à soupe d'huile d'olive"
+      },
+      {
+        "key": "eau",
+        "label": "30 cl d'eau"
+      },
+      {
+        "key": "semoule",
+        "label": "300 g de semoule ou du pain pour servir",
+        "alt": [
+          "pain"
+        ],
+        "optional": true
+      },
+      {
+        "key": "sel",
+        "label": "Sel"
+      },
+      {
+        "key": "poivre",
+        "label": "Poivre"
+      }
+    ],
+    "steps": [
+      "Émincer finement les oignons et hacher l'ail. Mélanger les épices avec 2 c. à soupe d'huile et en enrober les morceaux de poulet.",
+      "Dans un tajine ou une cocotte, faire chauffer le reste d'huile et faire dorer le poulet 8 minutes sur toutes les faces à feu moyen.",
+      "Ajouter les oignons et l'ail et les laisser fondre 5 minutes, puis verser l'eau, ajouter la moitié de la coriandre ciselée, saler légèrement et poivrer.",
+      "Couvrir et laisser mijoter 35 minutes à feu doux, en retournant les morceaux à mi-cuisson.",
+      "Couper les citrons confits en quartiers en retirant la pulpe (ou le citron frais en fines rondelles). Les ajouter avec les olives rincées et poursuivre la cuisson 15 minutes à découvert pour faire réduire la sauce.",
+      "Parsemer du reste de coriandre et servir avec de la semoule ou du pain."
+    ]
+  },
+  {
+    "slug": "poulet-teriyaki",
+    "title": "Poulet teriyaki",
+    "wiki": "Teriyaki",
+    "prep_minutes": 10,
+    "cook_minutes": 20,
+    "servings": 4,
+    "difficulty": "facile",
+    "tags": [
+      "plat",
+      "poêle",
+      "rapide"
+    ],
+    "ingredients": [
+      {
+        "key": "poulet",
+        "label": "600 g de hauts de cuisse de poulet désossés (ou de blancs)",
+        "alt": [
+          "dinde"
+        ]
+      },
+      {
+        "key": "sauce_soja",
+        "label": "6 c. à soupe de sauce soja"
+      },
+      {
+        "key": "miel",
+        "label": "3 c. à soupe de miel"
+      },
+      {
+        "key": "vinaigre",
+        "label": "1 c. à soupe de vinaigre de riz ou de cidre"
+      },
+      {
+        "key": "gingembre",
+        "label": "2 cm de gingembre frais",
+        "optional": true
+      },
+      {
+        "key": "ail",
+        "label": "1 gousse d'ail"
+      },
+      {
+        "key": "farine",
+        "label": "1 c. à café de fécule de maïs"
+      },
+      {
+        "key": "huile",
+        "label": "1 c. à soupe d'huile neutre"
+      },
+      {
+        "key": "oignon",
+        "label": "2 oignons nouveaux pour servir",
+        "optional": true
+      },
+      {
+        "key": "riz",
+        "label": "300 g de riz pour servir"
+      }
+    ],
+    "steps": [
+      "Cuire le riz selon les indications du paquet.",
+      "Mélanger la sauce soja, le miel, le vinaigre, le gingembre râpé, l'ail haché, la fécule et 4 c. à soupe d'eau.",
+      "Dans une grande poêle, faire chauffer l'huile et cuire les hauts de cuisse côté peau 6 minutes à feu moyen-vif, puis les retourner et cuire encore 5 minutes.",
+      "Retirer l'excès de graisse, verser la sauce et laisser réduire 3 à 4 minutes en retournant le poulet, jusqu'à ce qu'il soit brillant et bien nappé.",
+      "Couper le poulet en tranches, l'arroser du reste de sauce, parsemer d'oignon nouveau ciselé et servir avec le riz."
+    ]
+  },
+  {
+    "slug": "nuggets-poulet-maison",
+    "title": "Nuggets de poulet maison",
+    "wiki": "Nugget de poulet",
+    "prep_minutes": 20,
+    "cook_minutes": 15,
+    "servings": 4,
+    "difficulty": "facile",
+    "tags": [
+      "plat",
+      "poêle"
+    ],
+    "ingredients": [
+      {
+        "key": "poulet",
+        "label": "600 g de blancs de poulet",
+        "alt": [
+          "dinde"
+        ]
+      },
+      {
+        "key": "oeufs",
+        "label": "2 œufs"
+      },
+      {
+        "key": "farine",
+        "label": "60 g de farine"
+      },
+      {
+        "key": "chapelure",
+        "label": "120 g de chapelure"
+      },
+      {
+        "key": "epices",
+        "label": "1 c. à café de paprika"
+      },
+      {
+        "key": "huile",
+        "label": "10 cl d'huile pour la cuisson"
+      },
+      {
+        "key": "citron",
+        "label": "1 citron pour servir",
+        "optional": true
+      },
+      {
+        "key": "sel",
+        "label": "Sel"
+      },
+      {
+        "key": "poivre",
+        "label": "Poivre"
+      }
+    ],
+    "steps": [
+      "Couper les blancs de poulet en morceaux de 3 à 4 cm, puis les saler et les poivrer.",
+      "Préparer trois assiettes creuses : la farine, les œufs battus avec une pincée de sel, et la chapelure mélangée au paprika.",
+      "Passer chaque morceau dans la farine en tapotant pour retirer l'excédent, puis dans l'œuf, et enfin dans la chapelure en appuyant bien pour qu'elle adhère.",
+      "Faire chauffer 1 cm d'huile dans une grande poêle à feu moyen-vif. Cuire les nuggets en plusieurs fournées, 3 minutes de chaque côté, jusqu'à ce qu'ils soient bien dorés et cuits à cœur.",
+      "Égoutter sur du papier absorbant et servir chaud avec des quartiers de citron. Variante au four : arroser d'un filet d'huile et cuire 18 minutes à 210 °C (th. 7), en retournant les nuggets à mi-cuisson."
+    ]
+  },
+  {
+    "slug": "pad-thai-crevettes",
+    "title": "Pad thaï aux crevettes",
+    "wiki": "Phat thai",
+    "prep_minutes": 20,
+    "cook_minutes": 10,
+    "servings": 4,
+    "difficulty": "facile",
+    "tags": [
+      "plat",
+      "poêle",
+      "rapide"
+    ],
+    "ingredients": [
+      {
+        "key": "nouilles",
+        "label": "250 g de nouilles de riz plates"
+      },
+      {
+        "key": "crevettes",
+        "label": "300 g de crevettes crues décortiquées"
+      },
+      {
+        "key": "oeufs",
+        "label": "2 œufs"
+      },
+      {
+        "key": "tofu",
+        "label": "150 g de tofu ferme",
+        "optional": true
+      },
+      {
+        "key": "citron",
+        "label": "2 citrons verts"
+      },
+      {
+        "key": "oignon",
+        "label": "3 oignons nouveaux"
+      },
+      {
+        "key": "ail",
+        "label": "2 gousses d'ail"
+      },
+      {
+        "key": "sauce_soja",
+        "label": "3 c. à soupe de sauce soja ou de nuoc-mâm"
+      },
+      {
+        "key": "sucre",
+        "label": "2 c. à soupe de cassonade"
+      },
+      {
+        "key": "amandes",
+        "label": "50 g de cacahuètes grillées non salées",
+        "optional": true
+      },
+      {
+        "key": "coriandre",
+        "label": "Quelques brins de coriandre",
+        "optional": true
+      },
+      {
+        "key": "epices",
+        "label": "1 pincée de piment",
+        "optional": true
+      },
+      {
+        "key": "huile",
+        "label": "3 c. à soupe d'huile neutre"
+      }
+    ],
+    "steps": [
+      "Faire tremper les nouilles de riz 10 minutes dans de l'eau très chaude, puis les égoutter.",
+      "Mélanger la sauce soja, la cassonade, le jus d'un citron vert et 2 c. à soupe d'eau. Concasser les cacahuètes, émincer les oignons nouveaux et couper le tofu en dés.",
+      "Dans un wok, faire chauffer 2 c. à soupe d'huile à feu vif. Faire sauter le tofu 3 minutes, puis ajouter l'ail haché et les crevettes et cuire 2 minutes, jusqu'à ce qu'elles soient roses.",
+      "Pousser le tout sur le côté, verser le reste d'huile et les œufs battus, et les brouiller 1 minute avant de tout mélanger.",
+      "Ajouter les nouilles et la sauce et faire sauter 2 à 3 minutes en remuant sans cesse, jusqu'à ce que les nouilles soient tendres et bien enrobées. Ajouter les oignons nouveaux en fin de cuisson.",
+      "Servir parsemé de cacahuètes, de coriandre et d'une pincée de piment, avec des quartiers de citron vert."
+    ]
+  },
+  {
+    "slug": "nouilles-sautees-poulet-legumes",
+    "title": "Nouilles sautées au poulet et aux légumes",
+    "wiki": "Chow mein",
+    "prep_minutes": 15,
+    "cook_minutes": 15,
+    "servings": 4,
+    "difficulty": "facile",
+    "tags": [
+      "plat",
+      "poêle",
+      "rapide"
+    ],
+    "ingredients": [
+      {
+        "key": "nouilles",
+        "label": "250 g de nouilles chinoises aux œufs"
+      },
+      {
+        "key": "poulet",
+        "label": "400 g de blancs de poulet",
+        "alt": [
+          "dinde"
+        ]
+      },
+      {
+        "key": "carotte",
+        "label": "2 carottes"
+      },
+      {
+        "key": "poivron",
+        "label": "1 poivron rouge"
+      },
+      {
+        "key": "chou",
+        "label": "1/4 de chou chinois ou de chou blanc",
+        "optional": true
+      },
+      {
+        "key": "champignon",
+        "label": "150 g de champignons",
+        "optional": true
+      },
+      {
+        "key": "gingembre",
+        "label": "2 cm de gingembre frais",
+        "optional": true
+      },
+      {
+        "key": "oignon",
+        "label": "1 oignon"
+      },
+      {
+        "key": "ail",
+        "label": "2 gousses d'ail"
+      },
+      {
+        "key": "sauce_soja",
+        "label": "4 c. à soupe de sauce soja"
+      },
+      {
+        "key": "miel",
+        "label": "1 c. à soupe de miel"
+      },
+      {
+        "key": "farine",
+        "label": "1 c. à café de fécule de maïs"
+      },
+      {
+        "key": "huile",
+        "label": "3 c. à soupe d'huile"
+      },
+      {
+        "key": "poivre",
+        "label": "Poivre"
+      }
+    ],
+    "steps": [
+      "Cuire les nouilles selon les indications du paquet, les égoutter, les rincer à l'eau froide et les mélanger avec 1 c. à soupe d'huile pour qu'elles ne collent pas.",
+      "Couper le poulet en fines lanières et le mélanger avec 1 c. à soupe de sauce soja et la fécule. Couper les carottes en bâtonnets, le poivron et le chou en fines lanières, et émincer l'oignon et les champignons.",
+      "Dans un wok, faire sauter le poulet dans 1 c. à soupe d'huile 4 minutes à feu vif, puis le réserver.",
+      "Verser le reste d'huile et faire sauter l'oignon, les carottes et le poivron 3 minutes. Ajouter le chou, les champignons, l'ail et le gingembre hachés et cuire encore 2 minutes : les légumes doivent rester croquants.",
+      "Ajouter les nouilles, le poulet, le reste de sauce soja et le miel. Faire sauter 2 minutes en mélangeant bien, poivrer et servir aussitôt."
+    ]
+  },
+  {
+    "slug": "boeuf-saute-oignons",
+    "title": "Bœuf sauté aux oignons",
+    "wiki": null,
+    "prep_minutes": 15,
+    "cook_minutes": 15,
+    "servings": 4,
+    "difficulty": "facile",
+    "tags": [
+      "plat",
+      "poêle",
+      "rapide"
+    ],
+    "ingredients": [
+      {
+        "key": "boeuf",
+        "label": "500 g de bœuf à griller (rumsteck, bavette ou faux-filet)"
+      },
+      {
+        "key": "oignon",
+        "label": "3 oignons"
+      },
+      {
+        "key": "ail",
+        "label": "2 gousses d'ail"
+      },
+      {
+        "key": "gingembre",
+        "label": "2 cm de gingembre frais",
+        "optional": true
+      },
+      {
+        "key": "sauce_soja",
+        "label": "4 c. à soupe de sauce soja"
+      },
+      {
+        "key": "sucre",
+        "label": "1 c. à café de sucre"
+      },
+      {
+        "key": "farine",
+        "label": "1 c. à soupe de fécule de maïs"
+      },
+      {
+        "key": "huile",
+        "label": "3 c. à soupe d'huile neutre"
+      },
+      {
+        "key": "riz",
+        "label": "300 g de riz pour servir"
+      },
+      {
+        "key": "poivre",
+        "label": "Poivre du moulin"
+      }
+    ],
+    "steps": [
+      "Cuire le riz selon les indications du paquet.",
+      "Couper le bœuf en fines lamelles, perpendiculairement aux fibres. Le mélanger avec 2 c. à soupe de sauce soja, la fécule, l'ail haché, le gingembre râpé et un bon tour de poivre, puis laisser reposer 10 minutes.",
+      "Éplucher les oignons et les couper en lamelles épaisses.",
+      "Dans un wok, faire chauffer 2 c. à soupe d'huile à feu très vif et saisir le bœuf en deux fois, 1 à 2 minutes par fournée : il doit rester rosé. Réserver.",
+      "Verser le reste d'huile et faire sauter les oignons 4 à 5 minutes, jusqu'à ce qu'ils soient dorés mais encore un peu croquants.",
+      "Remettre le bœuf, ajouter le reste de sauce soja, le sucre et 2 c. à soupe d'eau, puis faire sauter 1 minute pour bien napper. Servir aussitôt avec le riz."
+    ]
+  },
+  {
+    "slug": "steak-frites-maison",
+    "title": "Steak et frites maison",
+    "wiki": "Steak frites",
+    "prep_minutes": 20,
+    "cook_minutes": 30,
+    "servings": 4,
+    "difficulty": "facile",
+    "tags": [
+      "plat",
+      "poêle"
+    ],
+    "ingredients": [
+      {
+        "key": "boeuf",
+        "label": "4 steaks d'environ 180 g (entrecôte, faux-filet ou bavette)"
+      },
+      {
+        "key": "pomme_de_terre",
+        "label": "1,2 kg de pommes de terre à frites (bintje, agria)"
+      },
+      {
+        "key": "huile",
+        "label": "1,5 l d'huile de friture (arachide ou tournesol)"
+      },
+      {
+        "key": "beurre",
+        "label": "20 g de beurre"
+      },
+      {
+        "key": "salade",
+        "label": "1 salade verte pour servir",
+        "optional": true
+      },
+      {
+        "key": "sel",
+        "label": "Sel et fleur de sel"
+      },
+      {
+        "key": "poivre",
+        "label": "Poivre"
+      }
+    ],
+    "steps": [
+      "Sortir les steaks du réfrigérateur 30 minutes avant la cuisson. Éplucher les pommes de terre et les tailler en bâtonnets de 1 cm, les rincer à l'eau froide, puis les sécher soigneusement dans un torchon.",
+      "Faire chauffer l'huile à 160 °C dans une friteuse ou une grande casserole. Précuire les frites en deux ou trois fournées, 6 minutes chacune, sans les laisser colorer, puis les égoutter.",
+      "Faire monter l'huile à 180 °C et replonger les frites 2 à 3 minutes, jusqu'à ce qu'elles soient dorées et croustillantes. Égoutter sur du papier absorbant et saler aussitôt.",
+      "Pendant cette seconde cuisson, faire chauffer une poêle à feu vif avec un filet d'huile et le beurre. Saisir les steaks 2 minutes de chaque côté pour une cuisson saignante (3 minutes pour à point).",
+      "Laisser reposer les steaks 2 minutes sur une assiette chaude, saler à la fleur de sel, poivrer et servir avec les frites et une salade verte."
+    ]
+  },
+  {
+    "slug": "moussaka",
+    "title": "Moussaka",
+    "wiki": "Moussaka",
+    "prep_minutes": 30,
+    "cook_minutes": 70,
+    "servings": 6,
+    "difficulty": "moyen",
+    "tags": [
+      "plat",
+      "four"
+    ],
+    "ingredients": [
+      {
+        "key": "aubergine",
+        "label": "3 aubergines"
+      },
+      {
+        "key": "boeuf_hache",
+        "label": "600 g de viande hachée d'agneau ou de bœuf",
+        "alt": [
+          "agneau"
+        ]
+      },
+      {
+        "key": "tomates_conserve",
+        "label": "400 g de tomates concassées et 1 c. à soupe de concentré de tomate"
+      },
+      {
+        "key": "oignon",
+        "label": "2 oignons"
+      },
+      {
+        "key": "ail",
+        "label": "2 gousses d'ail"
+      },
+      {
+        "key": "vin",
+        "label": "10 cl de vin rouge",
+        "optional": true
+      },
+      {
+        "key": "epices",
+        "label": "1/2 c. à café de cannelle et 1 pincée de muscade"
+      },
+      {
+        "key": "herbes_sechees",
+        "label": "1 c. à café d'origan"
+      },
+      {
+        "key": "huile",
+        "label": "6 c. à soupe d'huile d'olive"
+      },
+      {
+        "key": "beurre",
+        "label": "50 g de beurre"
+      },
+      {
+        "key": "farine",
+        "label": "50 g de farine"
+      },
+      {
+        "key": "lait",
+        "label": "60 cl de lait"
+      },
+      {
+        "key": "oeufs",
+        "label": "1 jaune d'œuf",
+        "optional": true
+      },
+      {
+        "key": "parmesan",
+        "label": "50 g de parmesan ou de fromage râpé",
+        "alt": [
+          "emmental"
+        ],
+        "optional": true
+      },
+      {
+        "key": "sel",
+        "label": "Sel"
+      },
+      {
+        "key": "poivre",
+        "label": "Poivre"
+      }
+    ],
+    "steps": [
+      "Préchauffer le four à 200 °C (th. 6-7). Couper les aubergines en tranches de 1 cm, les badigeonner d'huile, les saler et les étaler sur des plaques. Les rôtir 25 minutes, jusqu'à ce qu'elles soient tendres et dorées.",
+      "Pendant ce temps, faire revenir les oignons émincés dans 2 c. à soupe d'huile 5 minutes, puis ajouter la viande et l'ail haché et faire dorer 5 minutes en égrenant la viande.",
+      "Verser le vin et le laisser s'évaporer, puis ajouter les tomates, le concentré, la cannelle et l'origan. Saler, poivrer et laisser mijoter 20 minutes à découvert : la sauce doit être épaisse.",
+      "Préparer la béchamel : faire fondre le beurre, ajouter la farine et remuer 1 minute, puis verser le lait en fouettant et cuire 5 minutes jusqu'à épaississement. Hors du feu, ajouter la muscade, le jaune d'œuf, la moitié du fromage, du sel et du poivre.",
+      "Dans un plat à gratin huilé, alterner une couche d'aubergines, la viande, puis le reste des aubergines. Napper de béchamel et parsemer du reste de fromage.",
+      "Baisser le four à 180 °C (th. 6) et enfourner 40 minutes, jusqu'à ce que le dessus soit bien doré. Laisser reposer 10 minutes avant de couper."
+    ]
+  },
+  {
+    "slug": "keftas-orientale",
+    "title": "Keftas à l'orientale",
+    "wiki": "Kefta",
+    "prep_minutes": 20,
+    "cook_minutes": 10,
+    "servings": 4,
+    "difficulty": "facile",
+    "tags": [
+      "plat",
+      "poêle",
+      "rapide"
+    ],
+    "ingredients": [
+      {
+        "key": "boeuf_hache",
+        "label": "600 g de bœuf ou d'agneau haché",
+        "alt": [
+          "agneau"
+        ]
+      },
+      {
+        "key": "oignon",
+        "label": "1 oignon"
+      },
+      {
+        "key": "ail",
+        "label": "2 gousses d'ail"
+      },
+      {
+        "key": "persil",
+        "label": "1/2 bouquet de persil plat"
+      },
+      {
+        "key": "coriandre",
+        "label": "1/2 bouquet de coriandre",
+        "optional": true
+      },
+      {
+        "key": "epices",
+        "label": "2 c. à café de cumin, 1 c. à café de paprika, 1/2 c. à café de cannelle et 1 pincée de piment"
+      },
+      {
+        "key": "yaourt",
+        "label": "1 yaourt nature pour la sauce",
+        "optional": true
+      },
+      {
+        "key": "menthe",
+        "label": "Quelques feuilles de menthe",
+        "optional": true
+      },
+      {
+        "key": "citron",
+        "label": "1/2 citron",
+        "optional": true
+      },
+      {
+        "key": "huile",
+        "label": "2 c. à soupe d'huile"
+      },
+      {
+        "key": "semoule",
+        "label": "300 g de semoule ou du pain pita pour servir",
+        "alt": [
+          "pain"
+        ],
+        "optional": true
+      },
+      {
+        "key": "sel",
+        "label": "Sel"
+      },
+      {
+        "key": "poivre",
+        "label": "Poivre"
+      }
+    ],
+    "steps": [
+      "Râper ou hacher très finement l'oignon et le presser pour en retirer le jus. Hacher l'ail, le persil et la coriandre.",
+      "Dans un saladier, mélanger la viande avec l'oignon, l'ail, les herbes, les épices, 1 c. à café de sel et du poivre. Malaxer 2 minutes pour que la farce se tienne bien.",
+      "Avec les mains humides, former 12 boudins allongés de la taille d'un doigt, éventuellement autour de brochettes.",
+      "Faire chauffer l'huile dans une poêle-gril ou une poêle à feu vif et cuire les keftas 8 à 10 minutes en les retournant régulièrement, jusqu'à ce qu'elles soient bien dorées. Elles peuvent aussi être grillées au barbecue.",
+      "Pendant la cuisson, mélanger le yaourt avec la menthe ciselée, le jus de citron, du sel et du poivre.",
+      "Servir les keftas avec la sauce au yaourt et de la semoule ou du pain pita."
+    ]
+  },
+  {
+    "slug": "tacos-boeuf",
+    "title": "Tacos au bœuf",
+    "wiki": "Taco",
+    "prep_minutes": 15,
+    "cook_minutes": 15,
+    "servings": 4,
+    "difficulty": "facile",
+    "tags": [
+      "plat",
+      "poêle",
+      "rapide"
+    ],
+    "ingredients": [
+      {
+        "key": "tortillas",
+        "label": "8 petites tortillas de maïs ou de blé"
+      },
+      {
+        "key": "boeuf_hache",
+        "label": "500 g de bœuf haché"
+      },
+      {
+        "key": "tomate",
+        "label": "2 tomates"
+      },
+      {
+        "key": "cheddar",
+        "label": "100 g de cheddar râpé",
+        "alt": [
+          "emmental"
+        ]
+      },
+      {
+        "key": "salade",
+        "label": "Quelques feuilles de salade (iceberg ou romaine)",
+        "optional": true
+      },
+      {
+        "key": "avocat",
+        "label": "1 avocat",
+        "optional": true
+      },
+      {
+        "key": "creme",
+        "label": "Crème épaisse pour servir",
+        "optional": true
+      },
+      {
+        "key": "citron",
+        "label": "1 citron vert",
+        "optional": true
+      },
+      {
+        "key": "coriandre",
+        "label": "Quelques brins de coriandre",
+        "optional": true
+      },
+      {
+        "key": "oignon",
+        "label": "1 oignon rouge"
+      },
+      {
+        "key": "ail",
+        "label": "1 gousse d'ail"
+      },
+      {
+        "key": "tomates_conserve",
+        "label": "1 c. à soupe de concentré de tomate"
+      },
+      {
+        "key": "epices",
+        "label": "1 c. à café de cumin, 1 c. à café de paprika fumé et 1 pincée de piment"
+      },
+      {
+        "key": "huile",
+        "label": "1 c. à soupe d'huile"
+      },
+      {
+        "key": "sel",
+        "label": "Sel"
+      },
+      {
+        "key": "poivre",
+        "label": "Poivre"
+      }
+    ],
+    "steps": [
+      "Couper les tomates en petits dés, ciseler la salade, couper l'avocat en lamelles et ciseler la coriandre. Émincer finement l'oignon rouge.",
+      "Dans une poêle, faire revenir la moitié de l'oignon dans l'huile 3 minutes, puis ajouter l'ail haché et le bœuf. Faire dorer 5 minutes à feu vif en égrenant la viande.",
+      "Ajouter les épices, le concentré de tomate et 5 cl d'eau, saler, poivrer et laisser réduire 4 minutes, jusqu'à ce que la viande soit bien enrobée.",
+      "Réchauffer les tortillas 30 secondes de chaque côté dans une poêle sèche.",
+      "Garnir chaque tortilla de viande, de salade, de tomates, de cheddar, d'avocat, du reste d'oignon et de coriandre. Servir avec la crème et des quartiers de citron vert."
+    ]
+  },
+  {
+    "slug": "choucroute-garnie",
+    "title": "Choucroute garnie",
+    "wiki": null,
+    "prep_minutes": 20,
+    "cook_minutes": 95,
+    "servings": 6,
+    "difficulty": "facile",
+    "tags": [
+      "plat",
+      "mijoté"
+    ],
+    "ingredients": [
+      {
+        "key": "choucroute",
+        "label": "1,5 kg de choucroute crue"
+      },
+      {
+        "key": "saucisse",
+        "label": "6 saucisses de Strasbourg ou de Francfort"
+      },
+      {
+        "key": "lardons",
+        "label": "400 g de poitrine fumée en un morceau"
+      },
+      {
+        "key": "porc",
+        "label": "600 g de palette ou d'échine fumée",
+        "optional": true
+      },
+      {
+        "key": "saucisse_fumee",
+        "label": "2 saucisses de Montbéliard ou de Morteau",
+        "optional": true
+      },
+      {
+        "key": "pomme_de_terre",
+        "label": "1 kg de pommes de terre à chair ferme"
+      },
+      {
+        "key": "oignon",
+        "label": "2 oignons"
+      },
+      {
+        "key": "ail",
+        "label": "2 gousses d'ail"
+      },
+      {
+        "key": "vin",
+        "label": "50 cl de vin blanc d'Alsace (riesling ou sylvaner)"
+      },
+      {
+        "key": "epices",
+        "label": "10 baies de genièvre et 2 clous de girofle"
+      },
+      {
+        "key": "herbes_sechees",
+        "label": "2 feuilles de laurier"
+      },
+      {
+        "key": "huile",
+        "label": "2 c. à soupe de saindoux ou d'huile"
+      },
+      {
+        "key": "moutarde",
+        "label": "Moutarde pour servir",
+        "optional": true
+      },
+      {
+        "key": "sel",
+        "label": "Sel"
+      },
+      {
+        "key": "poivre",
+        "label": "Poivre"
+      }
+    ],
+    "steps": [
+      "Rincer la choucroute deux fois à l'eau froide, puis la presser entre les mains pour bien l'essorer. Émincer les oignons.",
+      "Dans une grande cocotte, faire fondre les oignons dans la matière grasse 5 minutes, sans coloration. Ajouter la moitié de la choucroute, la poitrine et la palette, puis le reste de la choucroute.",
+      "Ajouter l'ail écrasé, les baies de genièvre, les clous de girofle et le laurier. Verser le vin blanc et 20 cl d'eau, poivrer et saler légèrement. Couvrir et laisser mijoter 1 heure à feu doux.",
+      "Éplucher les pommes de terre et les poser sur la choucroute, puis ajouter les saucisses fumées piquées à la fourchette. Poursuivre la cuisson 30 minutes à couvert.",
+      "Pendant ce temps, pocher les saucisses de Strasbourg 10 minutes dans de l'eau frémissante, sans la laisser bouillir pour qu'elles n'éclatent pas.",
+      "Dresser la choucroute sur un grand plat, entourée des viandes tranchées, des saucisses et des pommes de terre. Servir avec de la moutarde."
+    ]
+  },
+  {
+    "slug": "petit-sale-lentilles",
+    "title": "Petit salé aux lentilles",
+    "wiki": "Petit salé",
+    "prep_minutes": 15,
+    "cook_minutes": 110,
+    "servings": 6,
+    "difficulty": "facile",
+    "tags": [
+      "plat",
+      "mijoté"
+    ],
+    "ingredients": [
+      {
+        "key": "lardons",
+        "label": "1 kg de petit salé (poitrine et palette demi-sel)",
+        "alt": [
+          "porc"
+        ]
+      },
+      {
+        "key": "lentilles",
+        "label": "400 g de lentilles vertes du Puy"
+      },
+      {
+        "key": "saucisse_fumee",
+        "label": "1 saucisse de Morteau",
+        "optional": true
+      },
+      {
+        "key": "carotte",
+        "label": "3 carottes"
+      },
+      {
+        "key": "oignon",
+        "label": "2 oignons"
+      },
+      {
+        "key": "ail",
+        "label": "2 gousses d'ail"
+      },
+      {
+        "key": "epices",
+        "label": "2 clous de girofle"
+      },
+      {
+        "key": "herbes_sechees",
+        "label": "1 bouquet garni"
+      },
+      {
+        "key": "eau",
+        "label": "2 l d'eau"
+      },
+      {
+        "key": "persil",
+        "label": "Quelques brins de persil",
+        "optional": true
+      },
+      {
+        "key": "sel",
+        "label": "Sel (à doser en fin de cuisson)"
+      },
+      {
+        "key": "poivre",
+        "label": "Poivre"
+      }
+    ],
+    "steps": [
+      "Mettre le petit salé dans une grande casserole d'eau froide, porter à ébullition et le blanchir 10 minutes pour le dessaler. Égoutter et jeter l'eau.",
+      "Mettre la viande dans une cocotte avec un oignon piqué des clous de girofle, l'ail et le bouquet garni. Couvrir d'eau froide, porter à frémissement et cuire 1 heure à couvert, à feu doux.",
+      "Rincer les lentilles. Éplucher les carottes et les couper en rondelles, émincer le second oignon.",
+      "Ajouter les lentilles, les carottes, l'oignon émincé et la saucisse piquée à la fourchette, en complétant d'eau si besoin pour que tout soit juste couvert. Poursuivre la cuisson 35 minutes à feu doux.",
+      "Goûter avant de saler, car le petit salé apporte déjà du sel, puis poivrer généreusement.",
+      "Servir la viande et la saucisse tranchées sur les lentilles, parsemées de persil ciselé."
+    ]
+  },
+  {
+    "slug": "cassoulet-express",
+    "title": "Cassoulet express",
+    "wiki": "Cassoulet",
+    "prep_minutes": 15,
+    "cook_minutes": 55,
+    "servings": 4,
+    "difficulty": "facile",
+    "tags": [
+      "plat",
+      "mijoté",
+      "four"
+    ],
+    "ingredients": [
+      {
+        "key": "haricots_blancs",
+        "label": "2 boîtes de haricots blancs (lingots) de 400 g"
+      },
+      {
+        "key": "saucisse",
+        "label": "4 saucisses de Toulouse"
+      },
+      {
+        "key": "canard",
+        "label": "2 cuisses de canard confites",
+        "optional": true
+      },
+      {
+        "key": "lardons",
+        "label": "150 g de lardons"
+      },
+      {
+        "key": "tomates_conserve",
+        "label": "200 g de tomates concassées et 1 c. à soupe de concentré de tomate"
+      },
+      {
+        "key": "oignon",
+        "label": "1 oignon"
+      },
+      {
+        "key": "ail",
+        "label": "3 gousses d'ail"
+      },
+      {
+        "key": "bouillon",
+        "label": "30 cl de bouillon de volaille"
+      },
+      {
+        "key": "herbes_sechees",
+        "label": "1 bouquet garni (thym, laurier)"
+      },
+      {
+        "key": "huile",
+        "label": "1 c. à soupe d'huile (sans confit de canard)"
+      },
+      {
+        "key": "chapelure",
+        "label": "3 c. à soupe de chapelure",
+        "optional": true
+      },
+      {
+        "key": "sel",
+        "label": "Sel"
+      },
+      {
+        "key": "poivre",
+        "label": "Poivre"
+      }
+    ],
+    "steps": [
+      "Préchauffer le four à 180 °C (th. 6). Rincer et égoutter les haricots.",
+      "Dans une cocotte allant au four, faire dorer les cuisses de canard côté peau 5 minutes (ou faire chauffer l'huile), puis les saucisses 5 minutes. Réserver les viandes.",
+      "Dans la graisse restante, faire revenir les lardons et l'oignon émincé 5 minutes. Ajouter l'ail haché, les tomates et le concentré, puis le bouillon et le bouquet garni.",
+      "Ajouter les haricots, poivrer, saler légèrement et laisser mijoter 10 minutes.",
+      "Enfouir dans les haricots les saucisses coupées en tronçons et les cuisses de canard, puis parsemer de chapelure.",
+      "Enfourner 30 minutes, jusqu'à ce qu'une croûte dorée se forme. Servir bien chaud, directement dans la cocotte."
+    ]
+  },
+  {
+    "slug": "saucisses-puree-maison",
+    "title": "Saucisses et purée maison",
+    "wiki": "Bangers and mash",
+    "prep_minutes": 15,
+    "cook_minutes": 25,
+    "servings": 4,
+    "difficulty": "facile",
+    "tags": [
+      "plat",
+      "poêle"
+    ],
+    "ingredients": [
+      {
+        "key": "saucisse",
+        "label": "8 saucisses (Toulouse, chipolatas…)"
+      },
+      {
+        "key": "pomme_de_terre",
+        "label": "1,2 kg de pommes de terre farineuses (bintje)"
+      },
+      {
+        "key": "lait",
+        "label": "25 cl de lait"
+      },
+      {
+        "key": "beurre",
+        "label": "60 g de beurre"
+      },
+      {
+        "key": "epices",
+        "label": "1 pincée de muscade"
+      },
+      {
+        "key": "oignon",
+        "label": "2 oignons",
+        "optional": true
+      },
+      {
+        "key": "bouillon",
+        "label": "20 cl de bouillon de bœuf",
+        "optional": true
+      },
+      {
+        "key": "farine",
+        "label": "1 c. à café de farine",
+        "optional": true
+      },
+      {
+        "key": "huile",
+        "label": "1 c. à soupe d'huile"
+      },
+      {
+        "key": "sel",
+        "label": "Sel"
+      },
+      {
+        "key": "poivre",
+        "label": "Poivre"
+      }
+    ],
+    "steps": [
+      "Éplucher les pommes de terre et les couper en morceaux égaux. Les mettre dans une grande casserole d'eau froide salée, porter à ébullition et cuire 20 minutes, jusqu'à ce que la pointe d'un couteau s'y enfonce sans résistance.",
+      "Pendant ce temps, piquer les saucisses et les cuire dans une poêle avec l'huile 15 à 20 minutes à feu moyen-doux, en les retournant souvent, jusqu'à ce qu'elles soient dorées de partout. Réserver au chaud.",
+      "Dans la même poêle, faire fondre les oignons émincés 8 minutes, saupoudrer de farine, puis verser le bouillon et laisser réduire 3 minutes pour obtenir une sauce aux oignons.",
+      "Égoutter les pommes de terre et les écraser au presse-purée (jamais au mixeur, la purée deviendrait élastique). Incorporer le beurre en morceaux, puis le lait chaud petit à petit, en remuant à la spatule.",
+      "Assaisonner de sel, de poivre et de muscade, et servir la purée avec les saucisses nappées de sauce aux oignons."
+    ]
+  },
+  {
+    "slug": "porc-au-caramel",
+    "title": "Porc au caramel",
+    "wiki": "Porc au caramel",
+    "prep_minutes": 15,
+    "cook_minutes": 55,
+    "servings": 4,
+    "difficulty": "facile",
+    "tags": [
+      "plat",
+      "mijoté"
+    ],
+    "ingredients": [
+      {
+        "key": "porc",
+        "label": "800 g d'échine ou de poitrine de porc"
+      },
+      {
+        "key": "sucre",
+        "label": "80 g de sucre"
+      },
+      {
+        "key": "sauce_soja",
+        "label": "3 c. à soupe de nuoc-mâm ou de sauce soja"
+      },
+      {
+        "key": "echalote",
+        "label": "3 échalotes"
+      },
+      {
+        "key": "ail",
+        "label": "3 gousses d'ail"
+      },
+      {
+        "key": "oeufs",
+        "label": "4 œufs",
+        "optional": true
+      },
+      {
+        "key": "eau",
+        "label": "40 cl d'eau"
+      },
+      {
+        "key": "huile",
+        "label": "1 c. à soupe d'huile"
+      },
+      {
+        "key": "oignon",
+        "label": "2 oignons nouveaux pour servir",
+        "optional": true
+      },
+      {
+        "key": "riz",
+        "label": "300 g de riz jasmin pour servir"
+      },
+      {
+        "key": "poivre",
+        "label": "Poivre noir"
+      }
+    ],
+    "steps": [
+      "Couper le porc en cubes de 3 cm, émincer les échalotes et hacher l'ail. Cuire les œufs 9 minutes dans l'eau bouillante, les refroidir et les écaler.",
+      "Dans une cocotte, faire fondre le sucre avec 2 c. à soupe d'eau à feu moyen, sans remuer, jusqu'à obtenir un caramel ambré foncé, environ 6 minutes.",
+      "Hors du feu, ajouter la viande en se protégeant des projections, puis remettre sur le feu avec l'huile, les échalotes et l'ail. Faire revenir 5 minutes en remuant pour bien enrober les morceaux.",
+      "Ajouter le nuoc-mâm, l'eau et un bon tour de poivre. Couvrir et laisser mijoter 30 minutes à feu doux.",
+      "Ajouter les œufs durs et poursuivre la cuisson 15 minutes à découvert, en les retournant, jusqu'à ce que la sauce soit sirupeuse et la viande laquée.",
+      "Pendant ce temps, cuire le riz. Servir le porc parsemé d'oignon nouveau ciselé, avec le riz."
+    ]
+  },
+  {
+    "slug": "filet-mignon-moutarde-champignons",
+    "title": "Filet mignon à la moutarde et aux champignons",
+    "wiki": "Filet mignon",
+    "prep_minutes": 15,
+    "cook_minutes": 30,
+    "servings": 4,
+    "difficulty": "facile",
+    "tags": [
+      "plat",
+      "poêle"
+    ],
+    "ingredients": [
+      {
+        "key": "porc",
+        "label": "1 filet mignon de porc (environ 600 g)"
+      },
+      {
+        "key": "champignon",
+        "label": "300 g de champignons de Paris"
+      },
+      {
+        "key": "creme",
+        "label": "20 cl de crème fraîche"
+      },
+      {
+        "key": "moutarde",
+        "label": "2 c. à soupe de moutarde à l'ancienne"
+      },
+      {
+        "key": "echalote",
+        "label": "2 échalotes"
+      },
+      {
+        "key": "vin",
+        "label": "10 cl de vin blanc sec",
+        "optional": true
+      },
+      {
+        "key": "beurre",
+        "label": "20 g de beurre"
+      },
+      {
+        "key": "huile",
+        "label": "1 c. à soupe d'huile"
+      },
+      {
+        "key": "persil",
+        "label": "Quelques brins de persil",
+        "optional": true
+      },
+      {
+        "key": "pates",
+        "label": "300 g de tagliatelles ou de riz pour servir",
+        "alt": [
+          "pates_fraiches",
+          "riz"
+        ],
+        "optional": true
+      },
+      {
+        "key": "sel",
+        "label": "Sel"
+      },
+      {
+        "key": "poivre",
+        "label": "Poivre"
+      }
+    ],
+    "steps": [
+      "Couper le filet mignon en médaillons de 2 cm d'épaisseur. Émincer les champignons et ciseler les échalotes.",
+      "Dans une grande poêle, faire dorer les médaillons dans l'huile et le beurre, 3 minutes de chaque côté à feu moyen-vif. Saler, poivrer et réserver.",
+      "Dans la même poêle, faire revenir les échalotes 2 minutes, puis les champignons 6 minutes, jusqu'à ce que leur eau soit évaporée.",
+      "Déglacer au vin blanc en grattant les sucs et laisser réduire 2 minutes. Ajouter la crème et la moutarde et mélanger.",
+      "Remettre la viande et son jus dans la sauce, couvrir et laisser mijoter 10 minutes à feu doux : la viande doit rester légèrement rosée à cœur.",
+      "Parsemer de persil ciselé et servir avec des tagliatelles ou du riz."
+    ]
+  },
+  {
+    "slug": "magret-canard-miel",
+    "title": "Magret de canard au miel",
+    "wiki": "Magret",
+    "prep_minutes": 10,
+    "cook_minutes": 20,
+    "servings": 4,
+    "difficulty": "facile",
+    "tags": [
+      "plat",
+      "poêle",
+      "rapide"
+    ],
+    "ingredients": [
+      {
+        "key": "canard",
+        "label": "2 magrets de canard (environ 400 g chacun)"
+      },
+      {
+        "key": "miel",
+        "label": "3 c. à soupe de miel"
+      },
+      {
+        "key": "vinaigre",
+        "label": "3 c. à soupe de vinaigre balsamique"
+      },
+      {
+        "key": "sauce_soja",
+        "label": "1 c. à soupe de sauce soja",
+        "optional": true
+      },
+      {
+        "key": "echalote",
+        "label": "1 échalote",
+        "optional": true
+      },
+      {
+        "key": "pomme_de_terre",
+        "label": "Pommes de terre sautées ou haricots verts pour servir",
+        "alt": [
+          "haricots_verts"
+        ],
+        "optional": true
+      },
+      {
+        "key": "sel",
+        "label": "Fleur de sel"
+      },
+      {
+        "key": "poivre",
+        "label": "Poivre"
+      }
+    ],
+    "steps": [
+      "Sortir les magrets du réfrigérateur 20 minutes avant la cuisson. Quadriller la peau au couteau tous les centimètres, sans entailler la chair.",
+      "Poser les magrets côté peau dans une poêle froide, puis les cuire 10 minutes à feu moyen en retirant la graisse fondue au fur et à mesure (la garder pour faire sauter des pommes de terre).",
+      "Retourner les magrets et les cuire 4 minutes côté chair pour une viande rosée. Les envelopper de papier aluminium et les laisser reposer 5 minutes.",
+      "Jeter la graisse restante, faire revenir l'échalote ciselée 1 minute, puis ajouter le miel, le vinaigre balsamique et la sauce soja. Laisser réduire 2 à 3 minutes, jusqu'à ce que la sauce soit sirupeuse.",
+      "Trancher les magrets en biais, les napper de sauce, saler à la fleur de sel, poivrer et servir avec des pommes de terre sautées ou des haricots verts."
+    ]
+  },
+  {
+    "slug": "parmentier-de-canard",
+    "title": "Parmentier de canard",
+    "wiki": null,
+    "prep_minutes": 30,
+    "cook_minutes": 50,
+    "servings": 6,
+    "difficulty": "facile",
+    "tags": [
+      "plat",
+      "four"
+    ],
+    "ingredients": [
+      {
+        "key": "canard",
+        "label": "4 cuisses de canard confites"
+      },
+      {
+        "key": "pomme_de_terre",
+        "label": "1,5 kg de pommes de terre farineuses"
+      },
+      {
+        "key": "echalote",
+        "label": "3 échalotes"
+      },
+      {
+        "key": "ail",
+        "label": "2 gousses d'ail"
+      },
+      {
+        "key": "lait",
+        "label": "25 cl de lait"
+      },
+      {
+        "key": "beurre",
+        "label": "40 g de beurre"
+      },
+      {
+        "key": "persil",
+        "label": "1/2 bouquet de persil",
+        "optional": true
+      },
+      {
+        "key": "chapelure",
+        "label": "3 c. à soupe de chapelure",
+        "optional": true
+      },
+      {
+        "key": "epices",
+        "label": "1 pincée de muscade"
+      },
+      {
+        "key": "sel",
+        "label": "Sel"
+      },
+      {
+        "key": "poivre",
+        "label": "Poivre"
+      }
+    ],
+    "steps": [
+      "Éplucher les pommes de terre, les couper en morceaux et les cuire 20 minutes dans une grande casserole d'eau salée.",
+      "Pendant ce temps, réchauffer les cuisses de canard 5 minutes dans une poêle pour faire fondre leur graisse. Retirer la peau et les os, puis effilocher la chair à la fourchette.",
+      "Dans 2 c. à soupe de graisse de canard, faire revenir les échalotes ciselées et l'ail haché 3 minutes, puis ajouter la viande effilochée et le persil ciselé. Poivrer et mélanger 2 minutes.",
+      "Préchauffer le four à 200 °C (th. 6-7). Écraser les pommes de terre en purée avec le beurre, le lait chaud, la muscade, du sel et du poivre.",
+      "Étaler la viande dans un plat à gratin, recouvrir de purée et lisser à la fourchette. Parsemer de chapelure et de quelques noisettes de graisse de canard.",
+      "Enfourner 25 minutes, jusqu'à ce que le dessus soit bien doré. Servir avec une salade verte."
+    ]
+  },
+  {
+    "slug": "lapin-moutarde",
+    "title": "Lapin à la moutarde",
+    "wiki": "Lapin à la moutarde",
+    "prep_minutes": 15,
+    "cook_minutes": 70,
+    "servings": 4,
+    "difficulty": "facile",
+    "tags": [
+      "plat",
+      "mijoté"
+    ],
+    "ingredients": [
+      {
+        "key": "lapin",
+        "label": "1 lapin découpé en morceaux (environ 1,5 kg)"
+      },
+      {
+        "key": "moutarde",
+        "label": "4 c. à soupe de moutarde forte (ou moitié forte, moitié à l'ancienne)"
+      },
+      {
+        "key": "creme",
+        "label": "20 cl de crème fraîche"
+      },
+      {
+        "key": "vin",
+        "label": "20 cl de vin blanc sec"
+      },
+      {
+        "key": "echalote",
+        "label": "2 échalotes"
+      },
+      {
+        "key": "lardons",
+        "label": "100 g de lardons",
+        "optional": true
+      },
+      {
+        "key": "herbes_sechees",
+        "label": "2 branches de thym et 1 feuille de laurier"
+      },
+      {
+        "key": "beurre",
+        "label": "20 g de beurre"
+      },
+      {
+        "key": "huile",
+        "label": "1 c. à soupe d'huile"
+      },
+      {
+        "key": "pomme_de_terre",
+        "label": "Pommes de terre vapeur ou tagliatelles pour servir",
+        "alt": [
+          "pates"
+        ],
+        "optional": true
+      },
+      {
+        "key": "sel",
+        "label": "Sel"
+      },
+      {
+        "key": "poivre",
+        "label": "Poivre"
+      }
+    ],
+    "steps": [
+      "Badigeonner les morceaux de lapin avec la moitié de la moutarde, puis saler et poivrer.",
+      "Dans une cocotte, faire dorer le lapin dans le beurre et l'huile, 10 minutes sur toutes les faces à feu moyen. Réserver.",
+      "Faire revenir les échalotes ciselées et les lardons 3 minutes, puis déglacer au vin blanc en grattant le fond.",
+      "Remettre le lapin, ajouter le thym, le laurier et 10 cl d'eau. Couvrir et laisser mijoter 45 minutes à feu doux, en retournant les morceaux à mi-cuisson.",
+      "Mélanger la crème avec le reste de la moutarde, verser dans la cocotte et poursuivre la cuisson 10 minutes à découvert, sans faire bouillir.",
+      "Retirer le thym et le laurier, rectifier l'assaisonnement et servir avec des pommes de terre vapeur ou des tagliatelles."
+    ]
+  },
+  {
+    "slug": "boudin-noir-pommes",
+    "title": "Boudin noir aux pommes",
+    "wiki": null,
+    "prep_minutes": 10,
+    "cook_minutes": 20,
+    "servings": 4,
+    "difficulty": "facile",
+    "tags": [
+      "plat",
+      "poêle",
+      "rapide"
+    ],
+    "ingredients": [
+      {
+        "key": "boudin",
+        "label": "4 portions de boudin noir (environ 600 g)"
+      },
+      {
+        "key": "pomme",
+        "label": "4 pommes (golden ou reinettes)"
+      },
+      {
+        "key": "beurre",
+        "label": "40 g de beurre"
+      },
+      {
+        "key": "sucre",
+        "label": "1 c. à soupe de sucre",
+        "optional": true
+      },
+      {
+        "key": "oignon",
+        "label": "1 oignon",
+        "optional": true
+      },
+      {
+        "key": "pomme_de_terre",
+        "label": "800 g de pommes de terre en purée pour servir",
+        "optional": true
+      },
+      {
+        "key": "sel",
+        "label": "Sel"
+      },
+      {
+        "key": "poivre",
+        "label": "Poivre"
+      }
+    ],
+    "steps": [
+      "Éplucher les pommes, les épépiner et les couper en quartiers épais. Piquer le boudin à plusieurs endroits avec la pointe d'un couteau pour qu'il n'éclate pas.",
+      "Dans une poêle, faire fondre 30 g de beurre et y faire dorer les pommes 10 minutes à feu moyen, en les retournant délicatement. Saupoudrer de sucre en fin de cuisson pour les caraméliser légèrement.",
+      "Dans une autre poêle, faire fondre le reste du beurre et faire revenir l'oignon émincé 5 minutes.",
+      "Ajouter le boudin et le cuire 8 à 10 minutes à feu doux en le retournant délicatement, jusqu'à ce qu'il soit chaud à cœur et légèrement croustillant.",
+      "Servir le boudin avec les pommes caramélisées et, si on le souhaite, une purée de pommes de terre. Poivrer au moment de servir."
+    ]
+  },
+  {
+    "slug": "brandade-de-morue",
+    "title": "Brandade de morue",
+    "wiki": "Brandade de morue",
+    "prep_minutes": 30,
+    "cook_minutes": 50,
+    "servings": 6,
+    "difficulty": "moyen",
+    "tags": [
+      "plat",
+      "four"
+    ],
+    "ingredients": [
+      {
+        "key": "poisson_blanc",
+        "label": "600 g de morue salée (ou de cabillaud frais)"
+      },
+      {
+        "key": "pomme_de_terre",
+        "label": "800 g de pommes de terre farineuses"
+      },
+      {
+        "key": "lait",
+        "label": "50 cl de lait"
+      },
+      {
+        "key": "ail",
+        "label": "3 gousses d'ail"
+      },
+      {
+        "key": "huile",
+        "label": "15 cl d'huile d'olive"
+      },
+      {
+        "key": "herbes_sechees",
+        "label": "1 feuille de laurier et 1 branche de thym"
+      },
+      {
+        "key": "persil",
+        "label": "Quelques brins de persil",
+        "optional": true
+      },
+      {
+        "key": "chapelure",
+        "label": "2 c. à soupe de chapelure",
+        "optional": true
+      },
+      {
+        "key": "sel",
+        "label": "Sel"
+      },
+      {
+        "key": "poivre",
+        "label": "Poivre"
+      }
+    ],
+    "steps": [
+      "La veille, faire dessaler la morue 24 heures au réfrigérateur dans un grand volume d'eau froide, en changeant l'eau 3 ou 4 fois. Avec du cabillaud frais, passer cette étape et saler le poisson.",
+      "Éplucher les pommes de terre, les couper en morceaux et les cuire 20 minutes dans de l'eau légèrement salée.",
+      "Mettre le poisson dans une casserole avec le lait, le laurier et le thym, compléter d'eau pour le couvrir et le pocher 8 minutes à petits frémissements. L'égoutter en gardant 10 cl de lait de cuisson, puis l'effeuiller en retirant la peau et les arêtes.",
+      "Préchauffer le four à 200 °C (th. 6-7). Écraser les pommes de terre avec l'ail haché, puis incorporer le poisson en versant l'huile d'olive en filet et le lait réservé, en mélangeant vigoureusement à la spatule jusqu'à obtenir une purée onctueuse.",
+      "Poivrer, goûter avant de saler, ajouter le persil ciselé et étaler dans un plat à gratin huilé. Parsemer de chapelure.",
+      "Enfourner 20 minutes, jusqu'à ce que le dessus soit doré. Servir avec une salade verte."
+    ]
+  },
+  {
+    "slug": "poisson-pane-maison",
+    "title": "Poisson pané maison",
+    "wiki": "Poisson pané",
+    "prep_minutes": 15,
+    "cook_minutes": 10,
+    "servings": 4,
+    "difficulty": "facile",
+    "tags": [
+      "plat",
+      "poêle",
+      "rapide"
+    ],
+    "ingredients": [
+      {
+        "key": "poisson_blanc",
+        "label": "600 g de filets de poisson blanc (cabillaud, colin, lieu)"
+      },
+      {
+        "key": "oeufs",
+        "label": "2 œufs"
+      },
+      {
+        "key": "farine",
+        "label": "50 g de farine"
+      },
+      {
+        "key": "chapelure",
+        "label": "100 g de chapelure"
+      },
+      {
+        "key": "citron",
+        "label": "1 citron"
+      },
+      {
+        "key": "persil",
+        "label": "Quelques brins de persil",
+        "optional": true
+      },
+      {
+        "key": "huile",
+        "label": "6 c. à soupe d'huile"
+      },
+      {
+        "key": "beurre",
+        "label": "20 g de beurre"
+      },
+      {
+        "key": "sel",
+        "label": "Sel"
+      },
+      {
+        "key": "poivre",
+        "label": "Poivre"
+      }
+    ],
+    "steps": [
+      "Éponger les filets de poisson avec du papier absorbant, les couper en morceaux de taille régulière, puis les saler et les poivrer.",
+      "Disposer trois assiettes creuses : la farine, les œufs battus, puis la chapelure mélangée au persil haché.",
+      "Passer chaque morceau dans la farine, puis dans l'œuf, et enfin dans la chapelure en appuyant pour bien l'enrober.",
+      "Faire chauffer l'huile et le beurre dans une grande poêle à feu moyen-vif. Cuire le poisson 3 à 4 minutes de chaque côté, jusqu'à ce que la panure soit dorée et que la chair s'effeuille.",
+      "Égoutter sur du papier absorbant et servir aussitôt avec des quartiers de citron, une purée ou une salade verte."
+    ]
+  },
+  {
+    "slug": "curry-crevettes-lait-de-coco",
+    "title": "Curry de crevettes au lait de coco",
+    "wiki": null,
+    "prep_minutes": 15,
+    "cook_minutes": 15,
+    "servings": 4,
+    "difficulty": "facile",
+    "tags": [
+      "plat",
+      "poêle",
+      "rapide"
+    ],
+    "ingredients": [
+      {
+        "key": "crevettes",
+        "label": "500 g de crevettes crues décortiquées"
+      },
+      {
+        "key": "lait_coco",
+        "label": "40 cl de lait de coco"
+      },
+      {
+        "key": "tomate",
+        "label": "2 tomates",
+        "alt": [
+          "tomates_conserve"
+        ]
+      },
+      {
+        "key": "gingembre",
+        "label": "3 cm de gingembre frais",
+        "optional": true
+      },
+      {
+        "key": "citron",
+        "label": "1 citron vert",
+        "optional": true
+      },
+      {
+        "key": "coriandre",
+        "label": "Quelques brins de coriandre",
+        "optional": true
+      },
+      {
+        "key": "oignon",
+        "label": "1 oignon"
+      },
+      {
+        "key": "ail",
+        "label": "2 gousses d'ail"
+      },
+      {
+        "key": "epices",
+        "label": "1 c. à soupe de curry en poudre et 1/2 c. à café de curcuma"
+      },
+      {
+        "key": "huile",
+        "label": "2 c. à soupe d'huile"
+      },
+      {
+        "key": "riz",
+        "label": "300 g de riz basmati"
+      },
+      {
+        "key": "sel",
+        "label": "Sel"
+      },
+      {
+        "key": "poivre",
+        "label": "Poivre"
+      }
+    ],
+    "steps": [
+      "Cuire le riz selon les indications du paquet. Émincer l'oignon, hacher l'ail, râper le gingembre et couper les tomates en dés.",
+      "Dans une sauteuse, faire revenir l'oignon dans l'huile 4 minutes, puis ajouter l'ail, le gingembre, le curry et le curcuma et remuer 1 minute.",
+      "Ajouter les tomates et cuire 3 minutes, puis verser le lait de coco, saler, poivrer et laisser mijoter 5 minutes à feu doux.",
+      "Ajouter les crevettes et les cuire 3 à 4 minutes, juste jusqu'à ce qu'elles deviennent roses : trop cuites, elles durcissent.",
+      "Arroser du jus de citron vert, parsemer de coriandre ciselée et servir avec le riz."
+    ]
+  },
+  {
+    "slug": "sardines-grillees",
+    "title": "Sardines grillées",
+    "wiki": "Sardinade",
+    "prep_minutes": 15,
+    "cook_minutes": 10,
+    "servings": 4,
+    "difficulty": "facile",
+    "tags": [
+      "plat",
+      "poêle",
+      "rapide"
+    ],
+    "ingredients": [
+      {
+        "key": "sardine",
+        "label": "1 kg de sardines fraîches (environ 16)"
+      },
+      {
+        "key": "citron",
+        "label": "2 citrons"
+      },
+      {
+        "key": "huile",
+        "label": "4 c. à soupe d'huile d'olive"
+      },
+      {
+        "key": "herbes_sechees",
+        "label": "1 c. à café de thym",
+        "optional": true
+      },
+      {
+        "key": "ail",
+        "label": "1 gousse d'ail",
+        "optional": true
+      },
+      {
+        "key": "persil",
+        "label": "Quelques brins de persil",
+        "optional": true
+      },
+      {
+        "key": "salade",
+        "label": "1 salade verte pour servir",
+        "optional": true
+      },
+      {
+        "key": "sel",
+        "label": "Gros sel et fleur de sel"
+      },
+      {
+        "key": "poivre",
+        "label": "Poivre"
+      }
+    ],
+    "steps": [
+      "Vider les sardines si besoin en pressant le ventre, les écailler du bout des doigts sous un filet d'eau froide sans retirer la tête, puis les éponger.",
+      "Les badigeonner avec 2 c. à soupe d'huile d'olive, parsemer de thym et de gros sel et laisser reposer 5 minutes.",
+      "Faire chauffer une poêle-gril ou une plancha à feu vif (ou allumer le barbecue). Cuire les sardines 3 à 4 minutes de chaque côté, sans les bouger avant de les retourner pour que la peau n'accroche pas.",
+      "Mélanger le persil haché, l'ail haché et le reste d'huile d'olive.",
+      "Servir les sardines aussitôt, arrosées de ce mélange, avec des quartiers de citron, de la fleur de sel et une salade verte."
+    ]
+  },
+  {
+    "slug": "maquereaux-four-moutarde",
+    "title": "Maquereaux au four et à la moutarde",
+    "wiki": null,
+    "prep_minutes": 10,
+    "cook_minutes": 20,
+    "servings": 4,
+    "difficulty": "facile",
+    "tags": [
+      "plat",
+      "four",
+      "rapide"
+    ],
+    "ingredients": [
+      {
+        "key": "maquereau",
+        "label": "4 maquereaux vidés (ou 8 filets)"
+      },
+      {
+        "key": "moutarde",
+        "label": "3 c. à soupe de moutarde à l'ancienne"
+      },
+      {
+        "key": "citron",
+        "label": "1 citron"
+      },
+      {
+        "key": "creme",
+        "label": "10 cl de crème fraîche",
+        "optional": true
+      },
+      {
+        "key": "echalote",
+        "label": "2 échalotes"
+      },
+      {
+        "key": "vin",
+        "label": "10 cl de vin blanc sec",
+        "optional": true
+      },
+      {
+        "key": "herbes_sechees",
+        "label": "Quelques brins de thym"
+      },
+      {
+        "key": "huile",
+        "label": "2 c. à soupe d'huile d'olive"
+      },
+      {
+        "key": "pomme_de_terre",
+        "label": "800 g de pommes de terre vapeur pour servir",
+        "optional": true
+      },
+      {
+        "key": "sel",
+        "label": "Sel"
+      },
+      {
+        "key": "poivre",
+        "label": "Poivre"
+      }
+    ],
+    "steps": [
+      "Préchauffer le four à 200 °C (th. 6-7). Rincer et éponger les maquereaux, puis pratiquer 3 entailles sur chaque flanc.",
+      "Mélanger la moutarde avec la crème, le jus d'un demi-citron, du sel et du poivre.",
+      "Huiler un plat à four, y répartir les échalotes émincées et le thym, puis poser les maquereaux par-dessus. Les badigeonner généreusement du mélange à la moutarde, y compris dans les entailles.",
+      "Verser le vin blanc au fond du plat et ajouter le reste du citron coupé en rondelles.",
+      "Enfourner 20 minutes pour des poissons entiers (12 minutes pour des filets), jusqu'à ce que la chair se détache facilement de l'arête. Servir avec des pommes de terre vapeur."
+    ]
+  },
+  {
+    "slug": "parmentier-de-poisson",
+    "title": "Parmentier de poisson",
+    "wiki": null,
+    "prep_minutes": 25,
+    "cook_minutes": 45,
+    "servings": 6,
+    "difficulty": "facile",
+    "tags": [
+      "plat",
+      "four"
+    ],
+    "ingredients": [
+      {
+        "key": "poisson_blanc",
+        "label": "700 g de filets de poisson blanc (cabillaud, colin, lieu)",
+        "alt": [
+          "saumon"
+        ]
+      },
+      {
+        "key": "pomme_de_terre",
+        "label": "1,2 kg de pommes de terre farineuses"
+      },
+      {
+        "key": "lait",
+        "label": "50 cl de lait"
+      },
+      {
+        "key": "beurre",
+        "label": "50 g de beurre"
+      },
+      {
+        "key": "echalote",
+        "label": "2 échalotes"
+      },
+      {
+        "key": "epinard",
+        "label": "200 g d'épinards",
+        "optional": true
+      },
+      {
+        "key": "creme",
+        "label": "10 cl de crème fraîche",
+        "optional": true
+      },
+      {
+        "key": "emmental",
+        "label": "80 g de fromage râpé",
+        "optional": true
+      },
+      {
+        "key": "aneth",
+        "label": "Quelques brins d'aneth",
+        "alt": [
+          "persil"
+        ],
+        "optional": true
+      },
+      {
+        "key": "herbes_sechees",
+        "label": "1 feuille de laurier"
+      },
+      {
+        "key": "epices",
+        "label": "1 pincée de muscade"
+      },
+      {
+        "key": "sel",
+        "label": "Sel"
+      },
+      {
+        "key": "poivre",
+        "label": "Poivre"
+      }
+    ],
+    "steps": [
+      "Éplucher les pommes de terre, les couper en morceaux et les cuire 20 minutes dans de l'eau salée.",
+      "Pendant ce temps, porter le lait à frémissement avec le laurier, y plonger le poisson et le pocher 6 minutes. L'égoutter en gardant le lait, puis l'effeuiller en retirant les arêtes.",
+      "Faire fondre les échalotes ciselées dans 10 g de beurre 3 minutes, puis ajouter les épinards et les laisser tomber 2 minutes. Mélanger avec le poisson, la crème, l'aneth ciselé, du sel et du poivre.",
+      "Préchauffer le four à 200 °C (th. 6-7). Écraser les pommes de terre avec le reste du beurre et 25 cl du lait de cuisson chaud, puis assaisonner de sel, de poivre et de muscade.",
+      "Étaler le poisson dans un plat à gratin beurré, le recouvrir de purée et parsemer de fromage râpé.",
+      "Enfourner 20 minutes, jusqu'à ce que le dessus soit doré."
+    ]
+  },
+  {
+    "slug": "quiche-saumon-poireaux",
+    "title": "Quiche saumon-poireaux",
+    "wiki": "Quiche",
+    "prep_minutes": 20,
+    "cook_minutes": 50,
+    "servings": 6,
+    "difficulty": "facile",
+    "tags": [
+      "plat",
+      "four"
+    ],
+    "ingredients": [
+      {
+        "key": "pate_brisee",
+        "label": "1 pâte brisée"
+      },
+      {
+        "key": "saumon",
+        "label": "300 g de saumon frais ou fumé",
+        "alt": [
+          "saumon_fume"
+        ]
+      },
+      {
+        "key": "poireau",
+        "label": "3 poireaux"
+      },
+      {
+        "key": "oeufs",
+        "label": "3 œufs"
+      },
+      {
+        "key": "creme",
+        "label": "20 cl de crème liquide"
+      },
+      {
+        "key": "lait",
+        "label": "10 cl de lait"
+      },
+      {
+        "key": "emmental",
+        "label": "50 g de fromage râpé",
+        "optional": true
+      },
+      {
+        "key": "aneth",
+        "label": "Quelques brins d'aneth",
+        "optional": true
+      },
+      {
+        "key": "beurre",
+        "label": "20 g de beurre"
+      },
+      {
+        "key": "epices",
+        "label": "1 pincée de muscade"
+      },
+      {
+        "key": "sel",
+        "label": "Sel"
+      },
+      {
+        "key": "poivre",
+        "label": "Poivre"
+      }
+    ],
+    "steps": [
+      "Préchauffer le four à 200 °C (th. 6-7). Foncer un moule à tarte avec la pâte, la piquer à la fourchette et la précuire 10 minutes.",
+      "Laver les poireaux, les émincer finement et les faire fondre dans le beurre 12 minutes à feu doux et à couvert, en remuant de temps en temps. Saler et poivrer.",
+      "Couper le saumon en dés de 2 cm, en retirant la peau et les arêtes s'il est frais.",
+      "Battre les œufs avec la crème, le lait, la muscade, l'aneth ciselé, du poivre et un peu de sel (très peu avec du saumon fumé).",
+      "Répartir les poireaux et le saumon sur le fond de tarte, verser l'appareil et parsemer de fromage râpé.",
+      "Baisser le four à 180 °C (th. 6) et enfourner 35 minutes, jusqu'à ce que la quiche soit dorée et prise au centre. Servir tiède avec une salade verte."
+    ]
+  },
+  {
+    "slug": "pates-thon-tomate",
+    "title": "Pâtes au thon et à la tomate",
+    "wiki": null,
+    "prep_minutes": 10,
+    "cook_minutes": 20,
+    "servings": 4,
+    "difficulty": "facile",
+    "tags": [
+      "plat",
+      "poêle",
+      "rapide"
+    ],
+    "ingredients": [
+      {
+        "key": "pates",
+        "label": "400 g de pâtes (penne, fusilli ou spaghetti)"
+      },
+      {
+        "key": "thon",
+        "label": "2 boîtes de thon au naturel (280 g égoutté)"
+      },
+      {
+        "key": "tomates_conserve",
+        "label": "400 g de tomates concassées et 1 c. à soupe de concentré de tomate"
+      },
+      {
+        "key": "oignon",
+        "label": "1 oignon"
+      },
+      {
+        "key": "ail",
+        "label": "2 gousses d'ail"
+      },
+      {
+        "key": "olive",
+        "label": "50 g d'olives noires",
+        "optional": true
+      },
+      {
+        "key": "basilic",
+        "label": "Quelques feuilles de basilic",
+        "optional": true
+      },
+      {
+        "key": "parmesan",
+        "label": "40 g de parmesan râpé",
+        "optional": true
+      },
+      {
+        "key": "herbes_sechees",
+        "label": "1 c. à café d'origan"
+      },
+      {
+        "key": "epices",
+        "label": "1 pincée de piment",
+        "optional": true
+      },
+      {
+        "key": "huile",
+        "label": "3 c. à soupe d'huile d'olive"
+      },
+      {
+        "key": "sel",
+        "label": "Sel"
+      },
+      {
+        "key": "poivre",
+        "label": "Poivre"
+      }
+    ],
+    "steps": [
+      "Émincer l'oignon et hacher l'ail. Égoutter le thon et l'émietter grossièrement.",
+      "Dans une sauteuse, faire revenir l'oignon dans l'huile d'olive 5 minutes, puis ajouter l'ail et le piment et remuer 1 minute.",
+      "Ajouter les tomates, le concentré et l'origan, saler, poivrer et laisser mijoter 10 minutes à feu doux.",
+      "Pendant ce temps, cuire les pâtes al dente dans une grande casserole d'eau bouillante salée, selon les indications du paquet. Garder une louche d'eau de cuisson.",
+      "Ajouter le thon et les olives à la sauce et réchauffer 2 minutes, sans trop remuer pour garder des morceaux.",
+      "Égoutter les pâtes et les mélanger à la sauce, en ajoutant un peu d'eau de cuisson si besoin. Servir avec du basilic et du parmesan."
+    ]
+  },
+  {
+    "slug": "saint-jacques-poelees",
+    "title": "Saint-Jacques poêlées",
+    "wiki": null,
+    "prep_minutes": 10,
+    "cook_minutes": 20,
+    "servings": 4,
+    "difficulty": "facile",
+    "tags": [
+      "plat",
+      "entrée",
+      "poêle",
+      "rapide"
+    ],
+    "ingredients": [
+      {
+        "key": "saint_jacques",
+        "label": "16 à 20 noix de Saint-Jacques, avec ou sans corail"
+      },
+      {
+        "key": "poireau",
+        "label": "2 poireaux pour la fondue",
+        "optional": true
+      },
+      {
+        "key": "creme",
+        "label": "10 cl de crème liquide",
+        "optional": true
+      },
+      {
+        "key": "citron",
+        "label": "1/2 citron",
+        "optional": true
+      },
+      {
+        "key": "ciboulette",
+        "label": "Quelques brins de ciboulette",
+        "alt": [
+          "persil"
+        ],
+        "optional": true
+      },
+      {
+        "key": "beurre",
+        "label": "40 g de beurre"
+      },
+      {
+        "key": "huile",
+        "label": "1 c. à soupe d'huile"
+      },
+      {
+        "key": "sel",
+        "label": "Fleur de sel"
+      },
+      {
+        "key": "poivre",
+        "label": "Poivre"
+      }
+    ],
+    "steps": [
+      "Rincer rapidement les noix de Saint-Jacques, retirer le petit muscle blanc sur le côté et les éponger soigneusement avec du papier absorbant : elles doivent être bien sèches pour dorer.",
+      "Pour la fondue, émincer finement les poireaux et les faire fondre 12 minutes à couvert dans 20 g de beurre, à feu doux. Ajouter la crème, saler, poivrer et laisser réduire 2 minutes.",
+      "Faire chauffer l'huile dans une poêle à feu vif jusqu'à ce qu'elle fume légèrement. Déposer les noix sans qu'elles se touchent et les saisir 1 min 30 sans les bouger.",
+      "Les retourner, ajouter le reste du beurre et cuire encore 1 minute en les arrosant de beurre mousseux : elles doivent rester nacrées à cœur.",
+      "Servir aussitôt sur la fondue de poireaux, avec un filet de jus de citron, de la fleur de sel, du poivre et de la ciboulette ciselée."
+    ]
+  },
+  {
+    "slug": "galettes-bretonnes-completes",
+    "title": "Galettes bretonnes complètes",
+    "wiki": "Galette de sarrasin (Haute-Bretagne)",
+    "prep_minutes": 5,
+    "cook_minutes": 20,
+    "servings": 4,
+    "difficulty": "facile",
+    "tags": [
+      "plat",
+      "poêle",
+      "rapide"
+    ],
+    "ingredients": [
+      {
+        "key": "galettes_sarrasin",
+        "label": "4 galettes de sarrasin (blé noir)"
+      },
+      {
+        "key": "jambon",
+        "label": "4 tranches de jambon blanc"
+      },
+      {
+        "key": "oeufs",
+        "label": "4 œufs"
+      },
+      {
+        "key": "emmental",
+        "label": "150 g d'emmental râpé",
+        "alt": [
+          "comte"
+        ]
+      },
+      {
+        "key": "beurre",
+        "label": "40 g de beurre"
+      },
+      {
+        "key": "salade",
+        "label": "1 salade verte pour servir",
+        "optional": true
+      },
+      {
+        "key": "sel",
+        "label": "Sel"
+      },
+      {
+        "key": "poivre",
+        "label": "Poivre"
+      }
+    ],
+    "steps": [
+      "Faire chauffer une grande poêle ou une crêpière à feu moyen et la beurrer légèrement. Faire fondre le reste du beurre.",
+      "Déposer une galette, face la plus claire contre la poêle, et la badigeonner d'un peu de beurre fondu. Parsemer de fromage râpé en laissant le centre libre.",
+      "Casser un œuf au centre, étaler un peu le blanc avec le dos d'une cuillère et disposer une tranche de jambon autour. Saler légèrement et poivrer.",
+      "Couvrir et laisser cuire 4 à 5 minutes, jusqu'à ce que le blanc soit pris, le jaune encore coulant et le fromage fondu.",
+      "Replier les bords de la galette en carré en laissant le jaune visible. Garder au chaud dans le four à 90 °C le temps de préparer les autres galettes, puis servir avec une salade verte."
+    ]
+  }
+]

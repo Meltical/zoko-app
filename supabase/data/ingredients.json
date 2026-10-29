@@ -150,5 +150,6 @@
   {"key": "haricots_blancs", "name": "Haricots blancs", "aliases": ["haricots blancs", "lingots"], "staple": true},
   {"key": "cacao", "name": "Cacao", "aliases": ["cacao", "cacao en poudre"], "staple": true},
   {"key": "cornichon", "name": "Cornichons", "aliases": ["cornichon"], "staple": true},
-  {"key": "confiture", "name": "Confiture", "aliases": ["confiture"], "staple": true}
+  {"key": "confiture", "name": "Confiture", "aliases": ["confiture"], "staple": true},
+  {"key": "choucroute", "name": "Choucroute", "aliases": ["choucroute", "chou fermenté"]}
 ]
