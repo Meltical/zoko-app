@@ -26,7 +26,7 @@ class _PantryPageState extends ConsumerState<PantryPage> {
     final products = ref.watch(productsProvider);
     return Scaffold(
       floatingActionButton: FloatingActionButton.extended(
-        onPressed: () => showAddProductSheet(context),
+        onPressed: () => showAddProductSheet(context, location: _filter),
         icon: const Icon(Icons.add),
         label: const Text('Ajouter'),
       ),
@@ -40,8 +40,11 @@ class _PantryPageState extends ConsumerState<PantryPage> {
 
   Widget _buildList(List<Product> all) {
     final theme = Theme.of(context);
-    final locations = {for (final product in all) product.location};
-    final filter = locations.length > 1 ? _filter : null;
+    final filter = _filter;
+    final counts = {
+      for (final location in StorageLocation.values)
+        location: all.where((product) => product.location == location).length,
+    };
     final products = [
       for (final product in all)
         if (filter == null || product.location == filter) product,
@@ -82,7 +85,7 @@ class _PantryPageState extends ConsumerState<PantryPage> {
         slivers: [
           SliverAppBar(
             floating: true,
-            title: const Text('Mon frigo'),
+            title: Text(filter?.label ?? 'À la maison'),
             actions: [
               IconButton(
                 tooltip: pendingRequests > 0
@@ -119,42 +122,45 @@ class _PantryPageState extends ConsumerState<PantryPage> {
                 ),
               ),
             ),
-          if (locations.length > 1)
-            SliverToBoxAdapter(
-              child: SingleChildScrollView(
-                scrollDirection: Axis.horizontal,
-                padding: const EdgeInsets.fromLTRB(16, 8, 16, 0),
-                child: Row(
-                  spacing: 8,
-                  children: [
+          SliverToBoxAdapter(
+            child: SingleChildScrollView(
+              scrollDirection: Axis.horizontal,
+              padding: const EdgeInsets.fromLTRB(16, 8, 16, 0),
+              child: Row(
+                spacing: 8,
+                children: [
+                  ChoiceChip(
+                    label: Text('Tout · ${all.length}'),
+                    selected: filter == null,
+                    onSelected: (_) => setState(() => _filter = null),
+                  ),
+                  for (final location in StorageLocation.values)
                     ChoiceChip(
-                      label: const Text('Tout'),
-                      selected: filter == null,
-                      onSelected: (_) => setState(() => _filter = null),
+                      avatar: Icon(location.icon, size: 18),
+                      label: Text('${location.label} · ${counts[location]}'),
+                      selected: filter == location,
+                      onSelected: (_) => setState(() => _filter = location),
                     ),
-                    for (final location in StorageLocation.values)
-                      if (locations.contains(location))
-                        ChoiceChip(
-                          avatar: Icon(location.icon, size: 18),
-                          label: Text(location.label),
-                          selected: filter == location,
-                          onSelected: (_) => setState(() => _filter = location),
-                        ),
-                  ],
-                ),
+                ],
               ),
             ),
-          if (all.isEmpty)
+          ),
+          if (products.isEmpty)
             SliverFillRemaining(
               hasScrollBody: false,
               child: EmptyView(
-                icon: Icons.kitchen_outlined,
-                title: 'Le frigo est vide',
+                icon: filter?.icon ?? Icons.kitchen_outlined,
+                title: switch (filter) {
+                  null => 'Rien à la maison pour l’instant',
+                  StorageLocation.fridge => 'Le frigo est vide',
+                  StorageLocation.freezer => 'Le congélo est vide',
+                  StorageLocation.pantry => 'Le placard est vide',
+                },
                 message: 'Ajoutez vos courses : un nom, une date, et c’est tout.',
                 action: FilledButton.icon(
-                  onPressed: () => showAddProductSheet(context),
+                  onPressed: () => showAddProductSheet(context, location: filter),
                   icon: const Icon(Icons.add),
-                  label: const Text('Ajouter un produit'),
+                  label: Text(filter == null ? 'Ajouter un produit' : 'Ajouter au ${filter.label.toLowerCase()}'),
                 ),
               ),
             ),

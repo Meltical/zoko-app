@@ -40,4 +40,14 @@ void main() {
     expect(entry.name, 'mozzarella');
     expect(entry.exp, isNull);
   });
+
+  test('date en toutes lettres', () {
+    expect(parseQuickEntry('jambon 15 novembre', now: now), (name: 'jambon', exp: DateTime(2026, 11, 15)));
+    expect(parseQuickEntry('Lait 1er déc.', now: now).exp, DateTime(2026, 12, 1));
+    expect(parseQuickEntry('poulet le 3 fevrier 2027', now: now), (name: 'poulet', exp: DateTime(2027, 2, 3)));
+    expect(parseQuickEntry('glace 2 juil', now: now).exp, DateTime(2027, 7, 2));
+    expect(parseQuickEntry('beurre 30 juin', now: now).exp, DateTime(2027, 6, 30));
+    expect(parseQuickEntry('crème 5 AOÛT 27', now: now).exp, DateTime(2027, 8, 5));
+    expect(parseQuickEntry('fromage 31 novembre', now: now).exp, isNull);
+  });
 }

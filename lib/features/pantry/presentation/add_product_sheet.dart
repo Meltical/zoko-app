@@ -11,6 +11,7 @@ import 'product_form_fields.dart';
 
 Future<void> showAddProductSheet(
   BuildContext context, {
+  StorageLocation? location,
   List<String> queue = const [],
   ValueChanged<String>? onAdded,
 }) => showModalBottomSheet<void>(
@@ -19,13 +20,14 @@ Future<void> showAddProductSheet(
   useSafeArea: true,
   builder: (context) => Padding(
     padding: EdgeInsets.only(bottom: MediaQuery.viewInsetsOf(context).bottom),
-    child: AddProductSheet(queue: queue, onAdded: onAdded),
+    child: AddProductSheet(location: location, queue: queue, onAdded: onAdded),
   ),
 );
 
 class AddProductSheet extends ConsumerStatefulWidget {
-  const AddProductSheet({super.key, this.queue = const [], this.onAdded});
+  const AddProductSheet({super.key, this.location, this.queue = const [], this.onAdded});
 
+  final StorageLocation? location;
   final List<String> queue;
   final ValueChanged<String>? onAdded;
 
@@ -50,7 +52,8 @@ class _AddProductSheetState extends ConsumerState<AddProductSheet> {
   @override
   void initState() {
     super.initState();
-    _location = StorageLocation.parse(ref.read(preferencesProvider).getString(PreferenceKeys.lastLocation));
+    _location =
+        widget.location ?? StorageLocation.parse(ref.read(preferencesProvider).getString(PreferenceKeys.lastLocation));
     _name.addListener(_onNameChanged);
     if (_queue.isNotEmpty) _prefill(_queue.removeAt(0));
   }
@@ -153,7 +156,13 @@ class _AddProductSheetState extends ConsumerState<AddProductSheet> {
         children: [
           Row(
             children: [
-              Expanded(child: Text('Ajouter au frigo', style: theme.textTheme.titleLarge)),
+              Expanded(
+                child: Text(switch (_location) {
+                  StorageLocation.fridge => 'Ajouter au frigo',
+                  StorageLocation.freezer => 'Ajouter au congélo',
+                  StorageLocation.pantry => 'Ajouter au placard',
+                }, style: theme.textTheme.titleLarge),
+              ),
               TextButton(onPressed: () => Navigator.pop(context), child: const Text('Terminé')),
             ],
           ),
@@ -226,7 +235,7 @@ class _AddProductSheetState extends ConsumerState<AddProductSheet> {
                 : const Text('Ajouter'),
           ),
           Text(
-            'Astuce : « yaourts 12/11 » ou « poulet +3 » règle la date au clavier',
+            'Astuce : « yaourts 12/11 », « jambon 15 novembre » ou « poulet +3 » règlent la date',
             textAlign: TextAlign.center,
             style: theme.textTheme.bodySmall?.copyWith(color: theme.colorScheme.onSurfaceVariant),
           ),
